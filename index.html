@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Racing Club – Newsletter Oficial</title>
+  <style>
+    /* ===== RESET ===== */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body, table, td, p, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table { border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+
+    /* ===== BASE ===== */
+    body {
+      background-color: #f0f4f8;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #1a1a2e;
+    }
+
+    /* ===== WRAPPER ===== */
+    .email-wrapper {
+      max-width: 620px;
+      margin: 0 auto;
+      background-color: #ffffff;
+    }
+
+    /* ===== HEADER ===== */
+    .header {
+      background: linear-gradient(135deg, #003087 0%, #0057b8 60%, #0066cc 100%);
+      padding: 0;
+      text-align: center;
+    }
+    .header-top {
+      background-color: #002266;
+      padding: 10px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header-badge {
+      background-color: #0066cc;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 3px;
+    }
+    .header-date {
+      color: #a0bce0;
+      font-size: 12px;
+    }
+    .header-main {
+      padding: 32px 24px 28px;
+    }
+    .club-crest {
+      width: 80px;
+      height: 80px;
+      background: #ffffff;
+      border-radius: 50%;
+      margin: 0 auto 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 4px solid #ccdff5;
+      font-size: 36px;
+      line-height: 80px;
+      text-align: center;
+    }
+    .header-title {
+      font-size: 28px;
+      font-weight: 900;
+      color: #ffffff;
+      letter-spacing: -0.5px;
+      text-transform: uppercase;
+    }
+    .header-subtitle {
+      font-size: 13px;
+      color: #9ec8f0;
+      margin-top: 6px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .header-divider {
+      height: 4px;
+      background: linear-gradient(to right, #ffffff30, #ffffff, #ffffff30);
+      margin: 20px auto;
+      width: 60%;
+      border-radius: 2px;
+    }
+    .header-edition {
+      display: inline-block;
+      background-color: rgba(255,255,255,0.15);
+      color: #d0e8ff;
+      font-size: 12px;
+      padding: 5px 16px;
+      border-radius: 20px;
+      margin-top: 4px;
+    }
+
+    /* ===== NAV BAR ===== */
+    .nav-bar {
+      background-color: #002266;
+      display: table;
+      width: 100%;
+    }
+    .nav-bar a {
+      display: table-cell;
+      text-align: center;
+      padding: 10px 4px;
+      color: #9ec8f0;
+      text-decoration: none;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      border-right: 1px solid #003380;
+      transition: background 0.2s;
+    }
+    .nav-bar a:last-child { border-right: none; }
+    .nav-bar a:hover { background-color: #0057b8; color: #fff; }
+
+    /* ===== SECTIONS ===== */
+    .section {
+      padding: 28px 24px 20px;
+      border-bottom: 1px solid #e8eef5;
+    }
+    .section:last-child { border-bottom: none; }
+
+    .section-title {
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #0057b8;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #0057b8;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title-icon {
+      font-size: 16px;
+    }
+
+    /* ===== STANDINGS TABLE ===== */
+    .standings-tabs {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 14px;
+    }
+    .tab {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 5px 12px;
+      border-radius: 4px;
+      background-color: #eef3fb;
+      color: #0057b8;
+      cursor: pointer;
+      border: 1px solid #c5d8f0;
+    }
+    .tab.active {
+      background-color: #0057b8;
+      color: #ffffff;
+      border-color: #0057b8;
+    }
+    .standings-table {
+      width: 100%;
+      font-size: 13px;
+      border-collapse: collapse;
+    }
+    .standings-table thead tr {
+      background-color: #003087;
+      color: #ffffff;
+    }
+    .standings-table thead th {
+      padding: 8px 10px;
+      text-align: center;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .standings-table thead th:first-child { text-align: left; }
+    .standings-table tbody tr {
+      border-bottom: 1px solid #e8eef5;
+      transition: background 0.15s;
+    }
+    .standings-table tbody tr:hover { background-color: #f5f9ff; }
+    .standings-table tbody tr.racing-row {
+      background-color: #e6f0ff;
+      font-weight: 700;
+      color: #003087;
+    }
+    .standings-table tbody tr.racing-row:hover { background-color: #d4e5ff; }
+    .standings-table tbody td {
+      padding: 9px 10px;
+      text-align: center;
+      color: #2c3e50;
+    }
+    .standings-table tbody td:first-child { text-align: left; }
+    .pos-num {
+      font-weight: 800;
+      color: #0057b8;
+      font-size: 14px;
+    }
+    .team-name { font-weight: 600; }
+    .pts-cell { font-weight: 800; color: #003087; font-size: 14px; }
+    .form-dots {
+      display: flex;
+      gap: 3px;
+      justify-content: center;
+    }
+    .form-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .form-dot.w { background-color: #27ae60; }
+    .form-dot.d { background-color: #f39c12; }
+    .form-dot.l { background-color: #e74c3c; }
+
+    /* ===== NEXT MATCHES ===== */
+    .match-card {
+      background: #f7faff;
+      border: 1px solid #d0e2f7;
+      border-left: 4px solid #0057b8;
+      border-radius: 6px;
+      padding: 14px 16px;
+      margin-bottom: 12px;
+    }
+    .match-card:last-child { margin-bottom: 0; }
+    .match-competition {
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #0057b8;
+      margin-bottom: 8px;
+    }
+    .match-teams {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    .match-team {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a1a2e;
+      flex: 1;
+    }
+    .match-team.away { text-align: right; }
+    .match-vs {
+      font-size: 12px;
+      font-weight: 800;
+      color: #003087;
+      background: #e6f0ff;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin: 0 10px;
+    }
+    .match-info {
+      display: flex;
+      gap: 16px;
+      font-size: 12px;
+      color: #6b7c99;
+    }
+    .match-info span { display: flex; align-items: center; gap: 4px; }
+
+    /* ===== RESULTS ===== */
+    .result-card {
+      display: flex;
+      align-items: center;
+      padding: 12px 14px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      border: 1px solid #e0e8f4;
+    }
+    .result-card:last-child { margin-bottom: 0; }
+    .result-card.win  { background-color: #eafaf1; border-left: 4px solid #27ae60; }
+    .result-card.draw { background-color: #fef9e7; border-left: 4px solid #f39c12; }
+    .result-card.loss { background-color: #fdedec; border-left: 4px solid #e74c3c; }
+    .result-badge {
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      flex-shrink: 0;
+      margin-right: 12px;
+    }
+    .result-badge.win  { background-color: #27ae60; }
+    .result-badge.draw { background-color: #f39c12; }
+    .result-badge.loss { background-color: #e74c3c; }
+    .result-details { flex: 1; }
+    .result-match {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1a1a2e;
+    }
+    .result-score {
+      font-size: 20px;
+      font-weight: 900;
+      color: #003087;
+      margin: 0 8px;
+    }
+    .result-meta {
+      font-size: 11px;
+      color: #8899aa;
+      margin-top: 3px;
+    }
+    .result-competition {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #0057b8;
+    }
+
+    /* ===== NEWS ===== */
+    .news-card {
+      display: flex;
+      gap: 14px;
+      padding: 14px 0;
+      border-bottom: 1px solid #eef3fb;
+    }
+    .news-card:last-child { border-bottom: none; padding-bottom: 0; }
+    .news-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background-color: #003087;
+      color: #ffffff;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      text-align: center;
+      line-height: 44px;
+    }
+    .news-content { flex: 1; }
+    .news-tag {
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #0057b8;
+      margin-bottom: 4px;
+    }
+    .news-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1a1a2e;
+      line-height: 1.4;
+      margin-bottom: 4px;
+    }
+    .news-body {
+      font-size: 12px;
+      color: #6b7c99;
+      line-height: 1.5;
+    }
+
+    /* ===== STATS BAR ===== */
+    .stats-row {
+      display: flex;
+      background-color: #f0f5ff;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 16px;
+    }
+    .stat-item {
+      flex: 1;
+      text-align: center;
+      padding: 14px 8px;
+      border-right: 1px solid #d5e5f9;
+    }
+    .stat-item:last-child { border-right: none; }
+    .stat-value {
+      font-size: 24px;
+      font-weight: 900;
+      color: #003087;
+    }
+    .stat-label {
+      font-size: 10px;
+      color: #8899aa;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      background-color: #002266;
+      padding: 28px 24px;
+      text-align: center;
+    }
+    .footer-logo {
+      font-size: 18px;
+      font-weight: 900;
+      color: #ffffff;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .footer-tagline {
+      font-size: 12px;
+      color: #9ec8f0;
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+    .footer-social {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .social-btn {
+      display: inline-block;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background-color: rgba(255,255,255,0.12);
+      color: #9ec8f0;
+      font-size: 16px;
+      line-height: 36px;
+      text-align: center;
+      text-decoration: none;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .footer-links {
+      margin-bottom: 16px;
+    }
+    .footer-links a {
+      color: #7aabdb;
+      font-size: 11px;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    .footer-legal {
+      font-size: 10px;
+      color: #4a6d9c;
+      line-height: 1.6;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media only screen and (max-width: 480px) {
+      .email-wrapper { width: 100% !important; }
+      .header-main { padding: 24px 16px 20px; }
+      .header-title { font-size: 22px; }
+      .section { padding: 20px 16px 16px; }
+      .match-team { font-size: 14px; }
+      .result-score { font-size: 16px; }
+      .stat-value { font-size: 20px; }
+      .nav-bar a { font-size: 10px; padding: 8px 2px; }
+      .header-top { flex-direction: column; gap: 4px; text-align: center; }
+      .stats-row { flex-wrap: wrap; }
+      .stat-item { min-width: 50%; border-bottom: 1px solid #d5e5f9; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="email-wrapper">
+
+  <!-- ===== HEADER ===== -->
+  <div class="header">
+    <div class="header-top">
+      <span class="header-badge">⚡ Boletín Oficial</span>
+      <span class="header-date">Abril 2026 · Nº 47</span>
+    </div>
+    <div class="header-main">
+      <div class="club-crest">🏆</div>
+      <div class="header-title">Racing Club</div>
+      <div class="header-subtitle">La Academia · Avellaneda</div>
+      <div class="header-divider"></div>
+      <span class="header-edition">📰 Newsletter Semanal · Temporada 2026</span>
+    </div>
+  </div>
+
+  <!-- ===== NAV ===== -->
+  <div class="nav-bar">
+    <a href="#">📊 Posiciones</a>
+    <a href="#">🗓 Partidos</a>
+    <a href="#">⚽ Resultados</a>
+    <a href="#">📰 Noticias</a>
+    <a href="#">🏛 Institución</a>
+  </div>
+
+  <!-- ===== STATS SNAPSHOT ===== -->
+  <div class="section">
+    <div class="section-title">
+      <span class="section-title-icon">📈</span> Temporada en Números
+    </div>
+    <div class="stats-row">
+      <div class="stat-item">
+        <div class="stat-value">14</div>
+        <div class="stat-label">Partidos</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">8</div>
+        <div class="stat-label">Victorias</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">3</div>
+        <div class="stat-label">Empates</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">3</div>
+        <div class="stat-label">Derrotas</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">27</div>
+        <div class="stat-label">Goles</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== STANDINGS ===== -->
+  <div class="section">
+    <div class="section-title">
+      <span class="section-title-icon">📊</span> Posiciones – Liga Profesional 2026
+    </div>
+    <div class="standings-tabs">
+      <span class="tab active">Liga Prof.</span>
+      <span class="tab">Copa Argentina</span>
+      <span class="tab">Sudamericana</span>
+    </div>
+    <table class="standings-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th style="text-align:left">Club</th>
+          <th>PJ</th>
+          <th>G</th>
+          <th>E</th>
+          <th>P</th>
+          <th>GF</th>
+          <th>GC</th>
+          <th>PTS</th>
+          <th>Forma</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="pos-num">1</span></td>
+          <td class="team-name">River Plate</td>
+          <td>14</td><td>9</td><td>3</td><td>2</td><td>29</td><td>14</td>
+          <td><span class="pts-cell">30</span></td>
+          <td>
+            <div class="form-dots">
+              <span class="form-dot w"></span><span class="form-dot w"></span>
+              <span class="form-dot d"></span><span class="form-dot w"></span><span class="form-dot w"></span>
+            </div>
+          </td>
+        </tr>
+        <tr class="racing-row">
+          <td><span class="pos-num">2</span></td>
+          <td class="team-name">⭐ Racing Club</td>
+          <td>14</td><td>8</td><td>3</td><td>3</td><td>27</td><td>15</td>
+          <td><span class="pts-cell">27</span></td>
+          <td>
+            <div class="form-dots">
+              <span class="form-dot w"></span><span class="form-dot l"></span>
+              <span class="form-dot w"></span><span class="form-dot w"></span><span class="form-dot d"></span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="pos-num">3</span></td>
+          <td class="team-name">Boca Juniors</td>
+          <td>14</td><td>8</td><td>2</td><td>4</td><td>22</td><td>17</td>
+          <td><span class="pts-cell">26</span></td>
+          <td>
+            <div class="form-dots">
+              <span class="form-dot w"></span><span class="form-dot w"></span>
+              <span class="form-dot l"></span><span class="form-dot d"></span><span class="form-dot w"></span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="pos-num">4</span></td>
+          <td class="team-name">Independiente</td>
+          <td>14</td><td>7</td><td>4</td><td>3</td><td>19</td><td>13</td>
+          <td><span class="pts-cell">25</span></td>
+          <td>
+            <div class="form-dots">
+              <span class="form-dot d"></span><span class="form-dot w"></span>
+              <span class="form-dot w"></span><span class="form-dot d"></span><span class="form-dot l"></span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="pos-num">5</span></td>
+          <td class="team-name">San Lorenzo</td>
+          <td>14</td><td>6</td><td>5</td><td>3</td><td>20</td><td>16</td>
+          <td><span class="pts-cell">23</span></td>
+          <td>
+            <div class="form-dots">
+              <span class="form-dot d"></span><span class="form-dot d"></span>
+              <span class="form-dot w"></span><span class="form-dot l"></span><span class="form-dot w"></span>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ===== NEXT MATCHES ===== -->
+  <div class="section">
+    <div class="section-title">
+      <span class="section-title-icon">🗓</span> Próximos Partidos
+    </div>
+
+    <div class="match-card">
+      <div class="match-competition">Liga Profesional – Fecha 15</div>
+      <div class="match-teams">
+        <span class="match-team">Racing Club</span>
+        <span class="match-vs">VS</span>
+        <span class="match-team away">Talleres (Cba)</span>
+      </div>
+      <div class="match-info">
+        <span>📅 Sáb 25 Abr 2026</span>
+        <span>🕘 21:00 hs</span>
+        <span>🏟 El Cilindro</span>
+        <span>📺 TNT Sports</span>
+      </div>
+    </div>
+
+    <div class="match-card">
+      <div class="match-competition">Copa Sudamericana – Grupo B</div>
+      <div class="match-teams">
+        <span class="match-team">Nacional (URU)</span>
+        <span class="match-vs">VS</span>
+        <span class="match-team away">Racing Club</span>
+      </div>
+      <div class="match-info">
+        <span>📅 Jue 1 May 2026</span>
+        <span>🕘 19:30 hs</span>
+        <span>🏟 Estadio Gran Parque</span>
+        <span>📺 ESPN</span>
+      </div>
+    </div>
+
+    <div class="match-card">
+      <div class="match-competition">Copa Argentina – Octavos</div>
+      <div class="match-teams">
+        <span class="match-team">Racing Club</span>
+        <span class="match-vs">VS</span>
+        <span class="match-team away">Godoy Cruz</span>
+      </div>
+      <div class="match-info">
+        <span>📅 Mar 6 May 2026</span>
+        <span>🕘 20:00 hs</span>
+        <span>🏟 Por confirmar</span>
+        <span>📺 TyC Sports</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== RESULTS ===== -->
+  <div class="section">
+    <div class="section-title">
+      <span class="section-title-icon">⚽</span> Últimos Resultados
+    </div>
+
+    <div class="result-card win">
+      <div class="result-badge win">G</div>
+      <div class="result-details">
+        <div class="result-match">
+          Racing Club <span class="result-score">3–1</span> Atlético Tucumán
+        </div>
+        <div class="result-meta">Dom 13 Abr · El Cilindro · 42.000 espectadores</div>
+        <div class="result-competition">Liga Profesional – Fecha 14</div>
+      </div>
+    </div>
+
+    <div class="result-card draw">
+      <div class="result-badge draw">E</div>
+      <div class="result-details">
+        <div class="result-match">
+          LDU Quito <span class="result-score">1–1</span> Racing Club
+        </div>
+        <div class="result-meta">Jue 10 Abr · Estadio Casa Blanca · Quito, Ecuador</div>
+        <div class="result-competition">Copa Sudamericana – Fecha 3</div>
+      </div>
+    </div>
+
+    <div class="result-card win">
+      <div class="result-badge win">G</div>
+      <div class="result-details">
+        <div class="result-match">
+          Racing Club <span class="result-score">2–0</span> Belgrano
+        </div>
+        <div class="result-meta">Dom 6 Abr · El Cilindro · 38.500 espectadores</div>
+        <div class="result-competition">Liga Profesional – Fecha 13</div>
+      </div>
+    </div>
+
+    <div class="result-card loss">
+      <div class="result-badge loss">P</div>
+      <div class="result-details">
+        <div class="result-match">
+          Huracán <span class="result-score">2–1</span> Racing Club
+        </div>
+        <div class="result-meta">Vie 2 Abr · Estadio Tomás Ducó · Bs. As.</div>
+        <div class="result-competition">Liga Profesional – Fecha 12</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SPORTS NEWS ===== -->
+  <div class="section">
+    <div class="section-title">
+      <span class="section-title-icon">📰</span> Noticias Deportivas
+    </div>
+
+    <div class="news-card">
+      <div class="news-icon">✍️</div>
+      <div class="news-content">
+        <div class="news-tag">Incorporación</div>
+        <div class="news-title">Racing confirma la llegada de Matías Fernández desde el fútbol español</div>
+        <div class="news-body">El mediocampista de 26 años firma hasta diciembre de 2028. Proveniente del Villarreal B, llega como una de las apuestas del nuevo proyecto deportivo de La Academia.</div>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-icon">🏥</div>
+      <div class="news-content">
+        <div class="news-tag">Parte Médico</div>
+        <div class="news-title">Enzo Pérez regresa a los entrenamientos tras lesión muscular</div>
+        <div class="news-body">El volante se recuperó antes de lo esperado de un desgarro en el bíceps femoral derecho. Estaría disponible para el partido del sábado contra Talleres.</div>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-icon">🎙️</div>
+      <div class="news-content">
+        <div class="news-tag">Entrenador</div>
+        <div class="news-title">"Vamos a salir a ganar como siempre", afirmó el DT Gustavo Costas</div>
+        <div class="news-body">En la previa al clásico de Avellaneda, el técnico destacó el buen momento del plantel: "El grupo está muy unido y con mucha confianza en lo que hacemos."</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== INSTITUTIONAL NEWS ===== -->
+  <div class="section">
+    <div class="section-title">
+      <span class="section-title-icon">🏛</span> Noticias Institucionales
+    </div>
+
+    <div class="news-card">
+      <div class="news-icon">🏗️</div>
+      <div class="news-content">
+        <div class="news-tag">Infraestructura</div>
+        <div class="news-title">Avanza la renovación del sector norte del Estadio Presidente Perón</div>
+        <div class="news-body">Las obras de modernización del sector norte avanzan según cronograma. Incorporarán nuevos palcos VIP, mejoras en sanitarios y pantallas LED de última generación. Inauguración prevista para julio 2026.</div>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-icon">🤝</div>
+      <div class="news-content">
+        <div class="news-tag">Socios</div>
+        <div class="news-title">Racing supera los 85.000 socios activos y bate su propio récord histórico</div>
+        <div class="news-body">El club anunció que alcanzó un nuevo hito en la cantidad de socios activos, impulsado por la campaña "Soy Racing" lanzada en febrero. Los socios tienen beneficios exclusivos en el nuevo e-commerce oficial.</div>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-icon">🎓</div>
+      <div class="news-content">
+        <div class="news-tag">Divisiones Inferiores</div>
+        <div class="news-title">La Cuarta División de Racing gana el Torneo de Verano AFA Sub-17</div>
+        <div class="news-body">Los chicos de la categoría 2009 se consagraron campeones en el torneo de pretemporada disputado en el Predio de Talar de Pacheco. Cuatro jugadores de este grupo ya integraron la pretemporada del primer equipo.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <div class="footer">
+    <div class="footer-logo">⚡ Racing Club de Avellaneda</div>
+    <div class="footer-tagline">"La Academia — Orgullo de Avellaneda desde 1903"</div>
+    <div class="footer-social">
+      <a class="social-btn" href="#" title="Twitter">𝕏</a>
+      <a class="social-btn" href="#" title="Instagram">📸</a>
+      <a class="social-btn" href="#" title="Facebook">f</a>
+      <a class="social-btn" href="#" title="YouTube">▶</a>
+    </div>
+    <div class="footer-links">
+      <a href="#">Sitio Oficial</a>
+      <a href="#">Hacerse Socio</a>
+      <a href="#">Tienda Oficial</a>
+      <a href="#">Entradas</a>
+    </div>
+    <div class="footer-legal">
+      © 2026 Racing Club de Avellaneda. Todos los derechos reservados.<br />
+      Av. Presidente Perón 1951, Avellaneda, Provincia de Buenos Aires, Argentina.<br />
+      <a href="#" style="color:#4a6d9c">Cancelar suscripción</a> · <a href="#" style="color:#4a6d9c">Política de Privacidad</a>
+    </div>
+  </div>
+
+</div><!-- /email-wrapper -->
+</body>
+</html>
