@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2026-04-19T18:45:00-03:00",
+  "lastUpdated": "2026-04-19",
+  "searchPeriod": "últimas 72 horas",
+  "executiveSummary": "Racing atraviesa un momento irregular: empató 1-1 con Aldosivi en Mar del Plata (19/04) y acumula 19 puntos en la 8va posición del Apertura 2026. En Copa Sudamericana, la derrota ante Botafogo (2-3) en Fecha 2 lo deja 3ro en el Grupo E con 3 puntos. Las bajas de Marcos Rojo (4 fechas suspendido) y tres nuevos lesionados agravan el panorama del equipo de Costas.",
+
+  "tournamentPositions": [
+    {
+      "name": "Liga Profesional - Apertura 2026",
+      "position": 8,
+      "played": 15,
+      "wins": 5,
+      "draws": 4,
+      "losses": 6,
+      "points": 19,
+      "goalDifference": 3
+    },
+    {
+      "name": "Copa Sudamericana 2026 - Grupo E",
+      "position": 3,
+      "played": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "points": 3,
+      "goalDifference": 1
+    }
+  ],
+
+  "nextMatches": [
+    {
+      "opponent": "Barracas Central",
+      "date": "2026-04-26",
+      "time": "21:30",
+      "stadium": "Presidente Perón",
+      "city": "Avellaneda",
+      "competition": "Liga Profesional - Apertura 2026",
+      "matchday": "Fecha 16"
+    },
+    {
+      "opponent": "Caracas FC",
+      "date": "2026-04-29",
+      "time": "19:00",
+      "stadium": "Estadio Olímpico",
+      "city": "Caracas, Venezuela",
+      "competition": "Copa Sudamericana 2026 - Grupo E",
+      "matchday": "Fecha 3"
+    }
+  ],
+
+  "recentResults": [
+    {
+      "date": "2026-04-19",
+      "home": "Aldosivi",
+      "away": "Racing",
+      "score": "1-1",
+      "competition": "Liga Profesional - Apertura 2026",
+      "result": "draw",
+      "goalScorers": ["Saracho (83')"]
+    },
+    {
+      "date": "2026-04-15",
+      "home": "Racing",
+      "away": "Botafogo",
+      "score": "2-3",
+      "competition": "Copa Sudamericana 2026",
+      "result": "loss",
+      "goalScorers": ["S. Sosa (4')", "A. Martínez (64')"]
+    },
+    {
+      "date": "2026-04-12",
+      "home": "Racing",
+      "away": "River Plate",
+      "score": "0-2",
+      "competition": "Liga Profesional - Apertura 2026",
+      "result": "loss",
+      "goalScorers": []
+    },
+    {
+      "date": "2026-04-07",
+      "home": "Ind. Petrolero",
+      "away": "Racing",
+      "score": "1-3",
+      "competition": "Copa Sudamericana 2026",
+      "result": "win",
+      "goalScorers": []
+    },
+    {
+      "date": "2026-04-04",
+      "home": "Independiente",
+      "away": "Racing",
+      "score": "1-0",
+      "competition": "Liga Profesional - Apertura 2026",
+      "result": "loss",
+      "goalScorers": []
+    }
+  ],
+
+  "sportsNews": [
+    {
+      "title": "Racing empató 1-1 con Aldosivi y Zuculini fue autocrítico",
+      "content": "En el José María Minella de Mar del Plata, Racing igualó 1-1 con Aldosivi por la Fecha 15 del Apertura 2026. Felipe Anso abrió el marcador (43') y Matías Saracho empató para Racing (83'). El capitán Bruno Zuculini declaró: 'No nos podemos permitir hacer estas cosas'.",
+      "date": "2026-04-19",
+      "category": "match",
+      "source": "lanacion.com.ar"
+    },
+    {
+      "title": "Tres bajas de último momento por lesiones ante Aldosivi",
+      "content": "Gastón Martirena (desgarro aductor derecho), Ignacio Rodríguez (dolor isquiotibial izquierdo) y Santiago Solari (sobrecarga muscular recto anterior derecho) fueron descartados de último momento para el viaje a Mar del Plata. El cuerpo técnico de Costas debió reacomodar el equipo.",
+      "date": "2026-04-18",
+      "category": "injury",
+      "source": "eldestapeweb.com"
+    },
+    {
+      "title": "Marcos Rojo suspendido por 4 fechas por expulsión ante River Plate",
+      "content": "Por el codazo a Martínez Quarta revisado por VAR en el clásico del 12 de abril, AFA sancionó a Marcos Rojo con 4 partidos. El defensor de 36 años se perderá los duelos ante Barracas Central, Huracán y otros. Costas lo reprendió públicamente.",
+      "date": "2026-04-17",
+      "category": "sanction",
+      "source": "infobae.com"
+    },
+    {
+      "title": "Racing cayó 2-3 ante Botafogo en la Copa Sudamericana a puertas cerradas",
+      "content": "El equipo de Costas fue derrotado en el Cilindro por Botafogo en Fecha 2 del Grupo E. Santiago Sosa abrió (4') pero Cabral (23') y Jr. Santos (41') dieron vuelta el marcador. Adrián Martínez igualó (64') pero Danilo selló la victoria brasileña en el 90+3'.",
+      "date": "2026-04-15",
+      "category": "match",
+      "source": "beinsports.com"
+    }
+  ],
+
+  "institutionalNews": [
+    {
+      "title": "Racing define el futuro de Marcos Rojo: posible salida en junio 2026",
+      "content": "Tras la grave sanción de 4 fechas y la reprimenda pública del DT Gustavo Costas, la continuidad de Marcos Rojo en el club es muy incierta. Su contrato vence en junio de 2026 y fuentes cercanas al club indican que no sería renovado. Racing evalúa opciones para reforzar la defensa en el próximo mercado.",
+      "date": "2026-04-17",
+      "category": "directive",
+      "source": "eldestapeweb.com"
+    }
+  ]
+}
