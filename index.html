@@ -129,6 +129,33 @@
     .nav-bar a:last-child { border-right: none; }
     .nav-bar a:hover { background-color: #0057b8; color: #fff; }
 
+    /* ===== EXECUTIVE SUMMARY ===== */
+    .executive-summary {
+      background: linear-gradient(135deg, #e8f0fe 0%, #f0f5ff 100%);
+      border-left: 4px solid #0057b8;
+      padding: 20px 28px;
+      border-bottom: 1px solid #d0e2f7;
+    }
+    .executive-summary-label {
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #0057b8;
+      margin-bottom: 8px;
+    }
+    .executive-summary-text {
+      font-size: 14px;
+      color: #1a2a4a;
+      line-height: 1.7;
+    }
+    .search-period-tag {
+      font-size: 11px;
+      color: #8899aa;
+      margin-top: 8px;
+      font-style: italic;
+    }
+
     /* ===== CONTENT GRID ===== */
     .content-grid {
       display: grid;
@@ -165,7 +192,7 @@
       background-color: #f0f5ff;
       border-radius: 8px;
       overflow: hidden;
-      margin-bottom: 16px;
+      margin-bottom: 10px;
     }
     .stat-item {
       flex: 1;
@@ -187,87 +214,86 @@
       text-transform: uppercase;
       margin-top: 4px;
     }
-
-    /* ===== STANDINGS TABLE ===== */
-    .standings-tabs {
-      display: flex;
-      gap: 6px;
-      margin-bottom: 16px;
-    }
-    .tab {
+    .stats-note {
       font-size: 11px;
-      font-weight: 700;
-      padding: 6px 14px;
-      border-radius: 4px;
-      background-color: #eef3fb;
-      color: #0057b8;
-      cursor: pointer;
-      border: 1px solid #c5d8f0;
-      transition: background 0.2s, color 0.2s;
-    }
-    .tab.active {
-      background-color: #0057b8;
-      color: #ffffff;
-      border-color: #0057b8;
-    }
-    .tab:hover:not(.active) {
-      background-color: #dceaf9;
-    }
-    .standings-table {
-      width: 100%;
-      font-size: 13px;
-      border-collapse: collapse;
-    }
-    .standings-table thead tr {
-      background-color: #003087;
-      color: #ffffff;
-    }
-    .standings-table thead th {
-      padding: 10px 12px;
+      color: #aabbcc;
       text-align: center;
-      font-size: 11px;
-      font-weight: 700;
+      margin-top: 4px;
+    }
+
+    /* ===== TOURNAMENT POSITION CARDS ===== */
+    .tournament-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
+    }
+    .tournament-card {
+      background: #f7faff;
+      border: 1px solid #d0e2f7;
+      border-radius: 8px;
+      padding: 18px 20px;
+    }
+    .tournament-card-name {
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #0057b8;
+      margin-bottom: 14px;
+    }
+    .tournament-card-body {
+      display: flex;
+      align-items: flex-end;
+      gap: 14px;
+    }
+    .tournament-pos-block {
+      flex-shrink: 0;
+    }
+    .tournament-pos-label {
+      font-size: 10px;
+      color: #8899aa;
+      font-weight: 600;
+      text-transform: uppercase;
       letter-spacing: 0.5px;
+      margin-bottom: 2px;
     }
-    .standings-table thead th:first-child { text-align: left; }
-    .standings-table tbody tr {
-      border-bottom: 1px solid #e8eef5;
-      transition: background 0.15s;
+    .tournament-pos-value {
+      font-size: 46px;
+      font-weight: 900;
+      color: #003087;
+      line-height: 1;
     }
-    .standings-table tbody tr:hover { background-color: #f5f9ff; }
-    .standings-table tbody tr.racing-row {
-      background-color: #e6f0ff;
-      font-weight: 700;
+    .tournament-pos-value sup {
+      font-size: 22px;
+    }
+    .tournament-stats-row {
+      flex: 1;
+      display: flex;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid #d0e2f7;
+    }
+    .tournament-stat {
+      flex: 1;
+      text-align: center;
+      padding: 8px 4px;
+      background: #ffffff;
+      border-right: 1px solid #d0e2f7;
+    }
+    .tournament-stat:last-child { border-right: none; }
+    .tournament-stat-val {
+      font-size: 15px;
+      font-weight: 800;
       color: #003087;
     }
-    .standings-table tbody tr.racing-row:hover { background-color: #d4e5ff; }
-    .standings-table tbody td {
-      padding: 10px 12px;
-      text-align: center;
-      color: #2c3e50;
+    .tournament-stat-lbl {
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #8899aa;
+      font-weight: 600;
+      margin-top: 2px;
     }
-    .standings-table tbody td:first-child { text-align: left; }
-    .pos-num {
-      font-weight: 800;
-      color: #0057b8;
-      font-size: 14px;
-    }
-    .team-name { font-weight: 600; }
-    .pts-cell { font-weight: 800; color: #003087; font-size: 14px; }
-    .form-dots {
-      display: flex;
-      gap: 3px;
-      justify-content: center;
-    }
-    .form-dot {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      display: inline-block;
-    }
-    .form-dot.w { background-color: #27ae60; }
-    .form-dot.d { background-color: #f39c12; }
-    .form-dot.l { background-color: #e74c3c; }
 
     /* ===== NEXT MATCHES ===== */
     .match-card {
@@ -321,7 +347,7 @@
     /* ===== RESULTS ===== */
     .result-card {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       padding: 14px 16px;
       border-radius: 6px;
       margin-bottom: 10px;
@@ -344,6 +370,7 @@
       color: #fff;
       flex-shrink: 0;
       margin-right: 14px;
+      margin-top: 2px;
     }
     .result-badge.win  { background-color: #27ae60; }
     .result-badge.draw { background-color: #f39c12; }
@@ -371,6 +398,13 @@
       letter-spacing: 1px;
       text-transform: uppercase;
       color: #0057b8;
+      margin-top: 2px;
+    }
+    .result-scorers {
+      font-size: 11px;
+      color: #8899aa;
+      margin-top: 5px;
+      line-height: 1.5;
     }
 
     /* ===== NEWS ===== */
@@ -413,6 +447,25 @@
       font-size: 13px;
       color: #6b7c99;
       line-height: 1.6;
+    }
+    .news-meta {
+      font-size: 10px;
+      color: #aabbcc;
+      margin-top: 6px;
+    }
+
+    /* ===== LOADING / ERROR ===== */
+    .loading {
+      text-align: center;
+      padding: 36px 20px;
+      color: #aabbcc;
+      font-size: 13px;
+    }
+    .error-msg {
+      text-align: center;
+      padding: 36px 20px;
+      color: #e74c3c;
+      font-size: 13px;
     }
 
     /* ===== FOOTER ===== */
@@ -484,15 +537,13 @@
         grid-template-rows: auto;
       }
 
-      /* Stats snapshot spans both columns */
-      #posiciones { grid-column: 1 / -1; }
-      #partidos   { grid-column: 2; grid-row: 2; }
-      #tabla      { grid-column: 1; grid-row: 2; }
-      #resultados { grid-column: 1; grid-row: 3; }
-      #noticias   { grid-column: 2; grid-row: 3; }
-      #institucional { grid-column: 1 / -1; }
+      #stats         { grid-column: 1 / -1; grid-row: 1; }
+      #posiciones    { grid-column: 1 / -1; grid-row: 2; }
+      #resultados    { grid-column: 1;      grid-row: 3; }
+      #partidos      { grid-column: 2;      grid-row: 3; }
+      #noticias      { grid-column: 2;      grid-row: 4; }
+      #institucional { grid-column: 1 / -1; grid-row: 5; }
 
-      /* Add left border separator on the second column */
       #partidos,
       #noticias {
         border-left: 1px solid #e8eef5;
@@ -504,6 +555,7 @@
       .header-main { padding: 28px 16px 22px; }
       .header-title { font-size: 26px; }
       .section { padding: 22px 16px 18px; }
+      .executive-summary { padding: 16px 16px; }
       .match-team { font-size: 14px; }
       .result-score { font-size: 16px; }
       .stat-value { font-size: 22px; }
@@ -511,6 +563,9 @@
       .header-top { flex-direction: column; gap: 4px; text-align: center; }
       .stats-row { flex-wrap: wrap; }
       .stat-item { min-width: 50%; border-bottom: 1px solid #d5e5f9; }
+      .tournament-cards-grid { grid-template-columns: 1fr; }
+      .tournament-card-body { flex-direction: column; align-items: stretch; }
+      .tournament-pos-value { font-size: 36px; }
     }
   </style>
 </head>
@@ -522,7 +577,7 @@
   <div class="header">
     <div class="header-top">
       <span class="header-badge">⚡ Boletín Oficial</span>
-      <span class="header-date">Abril 2026 · Nº 47</span>
+      <span class="header-date" id="header-date">Cargando...</span>
     </div>
     <div class="header-main">
       <div class="club-crest">🏆</div>
@@ -542,297 +597,62 @@
     <a href="#institucional">🏛 Institución</a>
   </nav>
 
+  <!-- ===== EXECUTIVE SUMMARY ===== -->
+  <div class="executive-summary" id="executive-summary" style="display:none">
+    <div class="executive-summary-label">📋 Resumen Ejecutivo</div>
+    <div class="executive-summary-text" id="executive-summary-text"></div>
+    <div class="search-period-tag" id="search-period-tag"></div>
+  </div>
+
   <!-- ===== CONTENT GRID ===== -->
   <div class="content-grid">
 
-    <!-- ===== STATS SNAPSHOT ===== -->
+    <!-- STATS -->
     <div id="stats" class="section">
       <div class="section-title">
         <span class="section-title-icon">📈</span> Temporada en Números
       </div>
-      <div class="stats-row">
-        <div class="stat-item">
-          <div class="stat-value">14</div>
-          <div class="stat-label">Partidos</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-value">8</div>
-          <div class="stat-label">Victorias</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-value">3</div>
-          <div class="stat-label">Empates</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-value">3</div>
-          <div class="stat-label">Derrotas</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-value">27</div>
-          <div class="stat-label">Goles</div>
-        </div>
-      </div>
+      <div id="stats-content"><div class="loading">Cargando estadísticas...</div></div>
     </div>
 
-    <!-- ===== STANDINGS ===== -->
+    <!-- POSICIONES -->
     <div id="posiciones" class="section">
       <div class="section-title">
-        <span class="section-title-icon">📊</span> Posiciones – Liga Profesional 2026
+        <span class="section-title-icon">📊</span> Posición de Racing
       </div>
-      <div class="standings-tabs">
-        <span class="tab active">Liga Prof.</span>
-        <span class="tab">Copa Argentina</span>
-        <span class="tab">Sudamericana</span>
-      </div>
-      <table class="standings-table">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th style="text-align:left">Club</th>
-            <th>PJ</th>
-            <th>G</th>
-            <th>E</th>
-            <th>P</th>
-            <th>GF</th>
-            <th>GC</th>
-            <th>PTS</th>
-            <th>Forma</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><span class="pos-num">1</span></td>
-            <td class="team-name">River Plate</td>
-            <td>14</td><td>9</td><td>3</td><td>2</td><td>29</td><td>14</td>
-            <td><span class="pts-cell">30</span></td>
-            <td>
-              <div class="form-dots">
-                <span class="form-dot w"></span><span class="form-dot w"></span>
-                <span class="form-dot d"></span><span class="form-dot w"></span><span class="form-dot w"></span>
-              </div>
-            </td>
-          </tr>
-          <tr class="racing-row">
-            <td><span class="pos-num">2</span></td>
-            <td class="team-name">⭐ Racing Club</td>
-            <td>14</td><td>8</td><td>3</td><td>3</td><td>27</td><td>15</td>
-            <td><span class="pts-cell">27</span></td>
-            <td>
-              <div class="form-dots">
-                <span class="form-dot w"></span><span class="form-dot l"></span>
-                <span class="form-dot w"></span><span class="form-dot w"></span><span class="form-dot d"></span>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td><span class="pos-num">3</span></td>
-            <td class="team-name">Boca Juniors</td>
-            <td>14</td><td>8</td><td>2</td><td>4</td><td>22</td><td>17</td>
-            <td><span class="pts-cell">26</span></td>
-            <td>
-              <div class="form-dots">
-                <span class="form-dot w"></span><span class="form-dot w"></span>
-                <span class="form-dot l"></span><span class="form-dot d"></span><span class="form-dot w"></span>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td><span class="pos-num">4</span></td>
-            <td class="team-name">Independiente</td>
-            <td>14</td><td>7</td><td>4</td><td>3</td><td>19</td><td>13</td>
-            <td><span class="pts-cell">25</span></td>
-            <td>
-              <div class="form-dots">
-                <span class="form-dot d"></span><span class="form-dot w"></span>
-                <span class="form-dot w"></span><span class="form-dot d"></span><span class="form-dot l"></span>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td><span class="pos-num">5</span></td>
-            <td class="team-name">San Lorenzo</td>
-            <td>14</td><td>6</td><td>5</td><td>3</td><td>20</td><td>16</td>
-            <td><span class="pts-cell">23</span></td>
-            <td>
-              <div class="form-dots">
-                <span class="form-dot d"></span><span class="form-dot d"></span>
-                <span class="form-dot w"></span><span class="form-dot l"></span><span class="form-dot w"></span>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div id="posiciones-content"><div class="loading">Cargando posiciones...</div></div>
     </div>
 
-    <!-- ===== NEXT MATCHES ===== -->
-    <div id="partidos" class="section">
-      <div class="section-title">
-        <span class="section-title-icon">🗓</span> Próximos Partidos
-      </div>
-
-      <div class="match-card">
-        <div class="match-competition">Liga Profesional – Fecha 15</div>
-        <div class="match-teams">
-          <span class="match-team">Racing Club</span>
-          <span class="match-vs">VS</span>
-          <span class="match-team away">Talleres (Cba)</span>
-        </div>
-        <div class="match-info">
-          <span>📅 Sáb 25 Abr 2026</span>
-          <span>🕘 21:00 hs</span>
-          <span>🏟 El Cilindro</span>
-          <span>📺 TNT Sports</span>
-        </div>
-      </div>
-
-      <div class="match-card">
-        <div class="match-competition">Copa Sudamericana – Grupo B</div>
-        <div class="match-teams">
-          <span class="match-team">Nacional (URU)</span>
-          <span class="match-vs">VS</span>
-          <span class="match-team away">Racing Club</span>
-        </div>
-        <div class="match-info">
-          <span>📅 Jue 1 May 2026</span>
-          <span>🕘 19:30 hs</span>
-          <span>🏟 Estadio Gran Parque</span>
-          <span>📺 ESPN</span>
-        </div>
-      </div>
-
-      <div class="match-card">
-        <div class="match-competition">Copa Argentina – Octavos</div>
-        <div class="match-teams">
-          <span class="match-team">Racing Club</span>
-          <span class="match-vs">VS</span>
-          <span class="match-team away">Godoy Cruz</span>
-        </div>
-        <div class="match-info">
-          <span>📅 Mar 6 May 2026</span>
-          <span>🕘 20:00 hs</span>
-          <span>🏟 Por confirmar</span>
-          <span>📺 TyC Sports</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- ===== RESULTS ===== -->
+    <!-- RESULTADOS -->
     <div id="resultados" class="section">
       <div class="section-title">
         <span class="section-title-icon">⚽</span> Últimos Resultados
       </div>
-
-      <div class="result-card win">
-        <div class="result-badge win">G</div>
-        <div class="result-details">
-          <div class="result-match">
-            Racing Club <span class="result-score">3–1</span> Atlético Tucumán
-          </div>
-          <div class="result-meta">Dom 13 Abr · El Cilindro · 42.000 espectadores</div>
-          <div class="result-competition">Liga Profesional – Fecha 14</div>
-        </div>
-      </div>
-
-      <div class="result-card draw">
-        <div class="result-badge draw">E</div>
-        <div class="result-details">
-          <div class="result-match">
-            LDU Quito <span class="result-score">1–1</span> Racing Club
-          </div>
-          <div class="result-meta">Jue 10 Abr · Estadio Casa Blanca · Quito, Ecuador</div>
-          <div class="result-competition">Copa Sudamericana – Fecha 3</div>
-        </div>
-      </div>
-
-      <div class="result-card win">
-        <div class="result-badge win">G</div>
-        <div class="result-details">
-          <div class="result-match">
-            Racing Club <span class="result-score">2–0</span> Belgrano
-          </div>
-          <div class="result-meta">Dom 6 Abr · El Cilindro · 38.500 espectadores</div>
-          <div class="result-competition">Liga Profesional – Fecha 13</div>
-        </div>
-      </div>
-
-      <div class="result-card loss">
-        <div class="result-badge loss">P</div>
-        <div class="result-details">
-          <div class="result-match">
-            Huracán <span class="result-score">2–1</span> Racing Club
-          </div>
-          <div class="result-meta">Vie 2 Abr · Estadio Tomás Ducó · Bs. As.</div>
-          <div class="result-competition">Liga Profesional – Fecha 12</div>
-        </div>
-      </div>
+      <div id="resultados-content"><div class="loading">Cargando resultados...</div></div>
     </div>
 
-    <!-- ===== SPORTS NEWS ===== -->
+    <!-- PRÓXIMOS PARTIDOS -->
+    <div id="partidos" class="section">
+      <div class="section-title">
+        <span class="section-title-icon">🗓</span> Próximos Partidos
+      </div>
+      <div id="partidos-content"><div class="loading">Cargando partidos...</div></div>
+    </div>
+
+    <!-- NOTICIAS DEPORTIVAS -->
     <div id="noticias" class="section">
       <div class="section-title">
         <span class="section-title-icon">📰</span> Noticias Deportivas
       </div>
-
-      <div class="news-card">
-        <div class="news-icon">✍️</div>
-        <div class="news-content">
-          <div class="news-tag">Incorporación</div>
-          <div class="news-title">Racing confirma la llegada de Matías Fernández desde el fútbol español</div>
-          <div class="news-body">El mediocampista de 26 años firma hasta diciembre de 2028. Proveniente del Villarreal B, llega como una de las apuestas del nuevo proyecto deportivo de La Academia.</div>
-        </div>
-      </div>
-
-      <div class="news-card">
-        <div class="news-icon">🏥</div>
-        <div class="news-content">
-          <div class="news-tag">Parte Médico</div>
-          <div class="news-title">Enzo Pérez regresa a los entrenamientos tras lesión muscular</div>
-          <div class="news-body">El volante se recuperó antes de lo esperado de un desgarro en el bíceps femoral derecho. Estaría disponible para el partido del sábado contra Talleres.</div>
-        </div>
-      </div>
-
-      <div class="news-card">
-        <div class="news-icon">🎙️</div>
-        <div class="news-content">
-          <div class="news-tag">Entrenador</div>
-          <div class="news-title">"Vamos a salir a ganar como siempre", afirmó el DT Gustavo Costas</div>
-          <div class="news-body">En la previa al clásico de Avellaneda, el técnico destacó el buen momento del plantel: "El grupo está muy unido y con mucha confianza en lo que hacemos."</div>
-        </div>
-      </div>
+      <div id="noticias-content"><div class="loading">Cargando noticias...</div></div>
     </div>
 
-    <!-- ===== INSTITUTIONAL NEWS ===== -->
+    <!-- NOTICIAS INSTITUCIONALES -->
     <div id="institucional" class="section">
       <div class="section-title">
         <span class="section-title-icon">🏛</span> Noticias Institucionales
       </div>
-
-      <div class="news-card">
-        <div class="news-icon">🏗️</div>
-        <div class="news-content">
-          <div class="news-tag">Infraestructura</div>
-          <div class="news-title">Avanza la renovación del sector norte del Estadio Presidente Perón</div>
-          <div class="news-body">Las obras de modernización del sector norte avanzan según cronograma. Incorporarán nuevos palcos VIP, mejoras en sanitarios y pantallas LED de última generación. Inauguración prevista para julio 2026.</div>
-        </div>
-      </div>
-
-      <div class="news-card">
-        <div class="news-icon">🤝</div>
-        <div class="news-content">
-          <div class="news-tag">Socios</div>
-          <div class="news-title">Racing supera los 85.000 socios activos y bate su propio récord histórico</div>
-          <div class="news-body">El club anunció que alcanzó un nuevo hito en la cantidad de socios activos, impulsado por la campaña "Soy Racing" lanzada en febrero. Los socios tienen beneficios exclusivos en el nuevo e-commerce oficial.</div>
-        </div>
-      </div>
-
-      <div class="news-card">
-        <div class="news-icon">🎓</div>
-        <div class="news-content">
-          <div class="news-tag">Divisiones Inferiores</div>
-          <div class="news-title">La Cuarta División de Racing gana el Torneo de Verano AFA Sub-17</div>
-          <div class="news-body">Los chicos de la categoría 2009 se consagraron campeones en el torneo de pretemporada disputado en el Predio de Talar de Pacheco. Cuatro jugadores de este grupo ya integraron la pretemporada del primer equipo.</div>
-        </div>
-      </div>
+      <div id="institucional-content"><div class="loading">Cargando noticias...</div></div>
     </div>
 
   </div><!-- /content-grid -->
@@ -860,5 +680,290 @@
   </div>
 
 </div><!-- /page-wrapper -->
+
+<script>
+  const MONTHS_SHORT = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+  const DAYS_SHORT   = ['Dom','Lun','Mar','Mié','Jue','Vie','Sáb'];
+
+  const CATEGORY_ICONS = {
+    match_result: '⚽',
+    injuries:     '🏥',
+    transfers:    '💸',
+    legal:        '⚖️',
+    infrastructure: '🏗️',
+    partners:     '🤝',
+    youth:        '🎓',
+  };
+
+  const CATEGORY_LABELS = {
+    match_result:   'Resultado',
+    injuries:       'Parte Médico',
+    transfers:      'Mercado de Pases',
+    legal:          'Legal',
+    infrastructure: 'Infraestructura',
+    partners:       'Socios',
+    youth:          'Divisiones Inferiores',
+  };
+
+  function esc(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function formatDate(dateStr) {
+    const [y, m, d] = dateStr.split('-').map(Number);
+    const date = new Date(y, m - 1, d);
+    return `${DAYS_SHORT[date.getDay()]} ${d} ${MONTHS_SHORT[m - 1]} ${y}`;
+  }
+
+  function formatGD(gd) {
+    return gd > 0 ? `+${gd}` : String(gd);
+  }
+
+  /* ── Header ── */
+  function renderHeader(data) {
+    const el = document.getElementById('header-date');
+    if (el && data.lastUpdated) el.textContent = formatDate(data.lastUpdated);
+  }
+
+  /* ── Executive summary ── */
+  function renderExecutiveSummary(data) {
+    const wrap   = document.getElementById('executive-summary');
+    const textEl = document.getElementById('executive-summary-text');
+    const perEl  = document.getElementById('search-period-tag');
+    if (!wrap) return;
+    if (data.executiveSummary) {
+      textEl.textContent = data.executiveSummary;
+      wrap.style.display = '';
+    }
+    if (data.searchPeriod) {
+      perEl.textContent = `Período cubierto: ${data.searchPeriod}`;
+    }
+  }
+
+  /* ── Stats ── */
+  function renderStats(data) {
+    const el = document.getElementById('stats-content');
+    if (!el || !data.tournamentPositions) return;
+
+    const total = data.tournamentPositions.reduce(
+      (acc, t) => ({
+        played: acc.played + t.played,
+        wins:   acc.wins   + t.wins,
+        draws:  acc.draws  + t.draws,
+        losses: acc.losses + t.losses,
+      }),
+      { played: 0, wins: 0, draws: 0, losses: 0 }
+    );
+
+    const ligaPts = data.tournamentPositions[0]?.points ?? '-';
+
+    el.innerHTML = `
+      <div class="stats-row">
+        <div class="stat-item">
+          <div class="stat-value">${total.played}</div>
+          <div class="stat-label">Partidos</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">${total.wins}</div>
+          <div class="stat-label">Victorias</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">${total.draws}</div>
+          <div class="stat-label">Empates</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">${total.losses}</div>
+          <div class="stat-label">Derrotas</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">${ligaPts}</div>
+          <div class="stat-label">Pts Liga</div>
+        </div>
+      </div>
+      <div class="stats-note">Acumulado todas las competencias · Temporada 2026</div>
+    `;
+  }
+
+  /* ── Posiciones ── */
+  function renderStandings(data) {
+    const el = document.getElementById('posiciones-content');
+    if (!el || !data.tournamentPositions) return;
+
+    const cards = data.tournamentPositions.map(t => `
+      <div class="tournament-card">
+        <div class="tournament-card-name">${esc(t.name)}</div>
+        <div class="tournament-card-body">
+          <div class="tournament-pos-block">
+            <div class="tournament-pos-label">Posición</div>
+            <div class="tournament-pos-value">${t.position}<sup>°</sup></div>
+          </div>
+          <div class="tournament-stats-row">
+            <div class="tournament-stat">
+              <div class="tournament-stat-val">${t.played}</div>
+              <div class="tournament-stat-lbl">PJ</div>
+            </div>
+            <div class="tournament-stat">
+              <div class="tournament-stat-val">${t.wins}</div>
+              <div class="tournament-stat-lbl">G</div>
+            </div>
+            <div class="tournament-stat">
+              <div class="tournament-stat-val">${t.draws}</div>
+              <div class="tournament-stat-lbl">E</div>
+            </div>
+            <div class="tournament-stat">
+              <div class="tournament-stat-val">${t.losses}</div>
+              <div class="tournament-stat-lbl">P</div>
+            </div>
+            <div class="tournament-stat">
+              <div class="tournament-stat-val">${t.points}</div>
+              <div class="tournament-stat-lbl">Pts</div>
+            </div>
+            <div class="tournament-stat">
+              <div class="tournament-stat-val">${formatGD(t.goalDifference)}</div>
+              <div class="tournament-stat-lbl">DG</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `).join('');
+
+    el.innerHTML = `<div class="tournament-cards-grid">${cards}</div>`;
+  }
+
+  /* ── Próximos partidos ── */
+  function renderNextMatches(data) {
+    const el = document.getElementById('partidos-content');
+    if (!el || !data.nextMatches) return;
+
+    if (data.nextMatches.length === 0) {
+      el.innerHTML = '<div class="loading">No hay próximos partidos agendados.</div>';
+      return;
+    }
+
+    const html = data.nextMatches.map(m => {
+      const isHome   = m.city === 'Avellaneda';
+      const homeTeam = isHome ? 'Racing Club' : esc(m.opponent);
+      const awayTeam = isHome ? esc(m.opponent) : 'Racing Club';
+      const timeStr  = m.time && m.time !== 'TBD'
+        ? `<span>🕘 ${esc(m.time)} hs</span>`
+        : `<span>🕘 Horario a confirmar</span>`;
+
+      return `
+        <div class="match-card">
+          <div class="match-competition">${esc(m.competition)} – ${esc(m.matchday)}</div>
+          <div class="match-teams">
+            <span class="match-team">${homeTeam}</span>
+            <span class="match-vs">VS</span>
+            <span class="match-team away">${awayTeam}</span>
+          </div>
+          <div class="match-info">
+            <span>📅 ${formatDate(m.date)}</span>
+            ${timeStr}
+            <span>🏟 ${esc(m.stadium)}</span>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    el.innerHTML = html;
+  }
+
+  /* ── Resultados ── */
+  function renderResults(data) {
+    const el = document.getElementById('resultados-content');
+    if (!el || !data.recentResults) return;
+
+    if (data.recentResults.length === 0) {
+      el.innerHTML = '<div class="loading">No hay resultados recientes.</div>';
+      return;
+    }
+
+    const badgeLabel = { win: 'G', draw: 'E', loss: 'P' };
+
+    const html = data.recentResults.map(r => {
+      const label       = badgeLabel[r.result] || '?';
+      const scoreHtml   = esc(r.score).replace('-', '–');
+      const scorersHtml = r.goalScorers && r.goalScorers.length > 0
+        ? `<div class="result-scorers">⚽ ${r.goalScorers.map(esc).join(' · ')}</div>`
+        : '';
+
+      return `
+        <div class="result-card ${esc(r.result)}">
+          <div class="result-badge ${esc(r.result)}">${label}</div>
+          <div class="result-details">
+            <div class="result-match">
+              ${esc(r.home)} <span class="result-score">${scoreHtml}</span> ${esc(r.away)}
+            </div>
+            <div class="result-meta">${formatDate(r.date)}</div>
+            <div class="result-competition">${esc(r.competition)}</div>
+            ${scorersHtml}
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    el.innerHTML = html;
+  }
+
+  /* ── Noticias (reutilizable) ── */
+  function renderNews(containerId, newsArray) {
+    const el = document.getElementById(containerId);
+    if (!el || !newsArray) return;
+
+    if (newsArray.length === 0) {
+      el.innerHTML = '<div class="loading">No hay noticias disponibles.</div>';
+      return;
+    }
+
+    const html = newsArray.map(n => {
+      const icon  = CATEGORY_ICONS[n.category]  || '📰';
+      const label = CATEGORY_LABELS[n.category] || 'Noticias';
+
+      return `
+        <div class="news-card">
+          <div class="news-icon">${icon}</div>
+          <div class="news-content">
+            <div class="news-tag">${esc(label)}</div>
+            <div class="news-title">${esc(n.title)}</div>
+            <div class="news-body">${esc(n.content)}</div>
+            <div class="news-meta">${formatDate(n.date)} · ${esc(n.source)}</div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    el.innerHTML = html;
+  }
+
+  /* ── Loader principal ── */
+  async function loadNewsletter() {
+    try {
+      const res = await fetch('data/latest.json');
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+
+      renderHeader(data);
+      renderExecutiveSummary(data);
+      renderStats(data);
+      renderStandings(data);
+      renderNextMatches(data);
+      renderResults(data);
+      renderNews('noticias-content', data.sportsNews);
+      renderNews('institucional-content', data.institutionalNews);
+    } catch (err) {
+      console.error('Error cargando newsletter:', err);
+      document.querySelectorAll('.loading').forEach(el => {
+        el.className = 'error-msg';
+        el.textContent = 'Error al cargar los datos. Recargá la página o verificá que data/latest.json existe.';
+      });
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', loadNewsletter);
+</script>
 </body>
 </html>
