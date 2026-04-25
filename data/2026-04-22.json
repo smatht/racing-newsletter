@@ -1,0 +1,171 @@
+{
+  "generatedAt": "2026-04-22T10:00:00-03:00",
+  "lastUpdated": "2026-04-22",
+  "searchPeriod": "últimas 72 horas",
+  "executiveSummary": "Racing Club atraviesa una crisis deportiva: quedó en el borde de los playoffs del Apertura 2026 con 20 puntos (7mo en Zona B) tras empatar 1-1 con Aldosivi el 19/4. En Copa Sudamericana es 3ro en el Grupo E con 3 pts tras ganar a Ind. Petrolero y perder ante Botafogo. Costas fue duramente autocrítico y prepara cambios para el viernes ante Barracas Central.",
+
+  "tournamentPositions": [
+    {
+      "name": "Liga Profesional - Zona B (Torneo Apertura 2026)",
+      "position": 7,
+      "played": 15,
+      "wins": 5,
+      "draws": 5,
+      "losses": 5,
+      "points": 20,
+      "goalDifference": -2
+    },
+    {
+      "name": "Copa Sudamericana - Grupo E",
+      "position": 3,
+      "played": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "points": 3,
+      "goalDifference": 1
+    }
+  ],
+
+  "nextMatches": [
+    {
+      "opponent": "Barracas Central",
+      "date": "2026-04-24",
+      "time": "21:30",
+      "stadium": "Presidente Perón",
+      "city": "Avellaneda",
+      "competition": "Liga Profesional - Torneo Apertura",
+      "matchday": "Fecha 16"
+    },
+    {
+      "opponent": "Caracas FC",
+      "date": "2026-04-30",
+      "time": "TBD",
+      "stadium": "Estadio Olímpico de la UCV",
+      "city": "Caracas, Venezuela",
+      "competition": "Copa Sudamericana - Grupo E",
+      "matchday": "Fecha 3"
+    },
+    {
+      "opponent": "Huracán",
+      "date": "2026-05-03",
+      "time": "TBD",
+      "stadium": "Presidente Perón",
+      "city": "Avellaneda",
+      "competition": "Liga Profesional - Torneo Apertura",
+      "matchday": "Fecha 17"
+    },
+    {
+      "opponent": "Botafogo",
+      "date": "2026-05-07",
+      "time": "TBD",
+      "stadium": "Estadio Nilton Santos",
+      "city": "Río de Janeiro, Brasil",
+      "competition": "Copa Sudamericana - Grupo E",
+      "matchday": "Fecha 4"
+    }
+  ],
+
+  "recentResults": [
+    {
+      "date": "2026-04-19",
+      "home": "Aldosivi",
+      "away": "Racing",
+      "score": "1-1",
+      "competition": "Liga Profesional - Torneo Apertura",
+      "result": "draw",
+      "goalScorers": ["Zaracho (Racing)", "Anso (Aldosivi)"]
+    },
+    {
+      "date": "2026-04-15",
+      "home": "Botafogo",
+      "away": "Racing",
+      "score": "3-2",
+      "competition": "Copa Sudamericana - Grupo E",
+      "result": "loss",
+      "goalScorers": []
+    },
+    {
+      "date": "2026-04-12",
+      "home": "Racing",
+      "away": "River Plate",
+      "score": "0-2",
+      "competition": "Liga Profesional - Torneo Apertura",
+      "result": "loss",
+      "goalScorers": ["Colidio (River)", "Driussi (River)"]
+    },
+    {
+      "date": "2026-04-07",
+      "home": "Ind. Petrolero",
+      "away": "Racing",
+      "score": "1-3",
+      "competition": "Copa Sudamericana - Grupo E",
+      "result": "win",
+      "goalScorers": ["Sosa", "Martirena", "A. Fernández"]
+    },
+    {
+      "date": "2026-04-04",
+      "home": "Independiente",
+      "away": "Racing",
+      "score": "1-0",
+      "competition": "Liga Profesional - Torneo Apertura",
+      "result": "loss",
+      "goalScorers": []
+    }
+  ],
+
+  "sportsNews": [
+    {
+      "title": "Costas feroz autocrítico tras el empate con Aldosivi: 'Fue desastroso, es un tema de actitud'",
+      "content": "El DT de Racing no ocultó su decepción luego del 1-1 en Mar del Plata. 'Fue uno de los peores partidos desde que estamos en Racing. No se puede jugar un partido así', declaró Costas. El empate complica la clasificación a los playoffs del Apertura 2026.",
+      "date": "2026-04-19",
+      "category": "technical",
+      "source": "infobae.com"
+    },
+    {
+      "title": "Zuculini, autocrítico: 'No nos podemos permitir hacer estas cosas'",
+      "content": "El capitán de Racing fue contundente tras el empate ante Aldosivi. El mediocampista reconoció que el equipo está muy por debajo de su nivel y que necesita reaccionar de manera urgente de cara a las dos fechas que restan en la fase regular del Apertura.",
+      "date": "2026-04-19",
+      "category": "analysis",
+      "source": "lanacion.com.ar"
+    },
+    {
+      "title": "Costas recuperó a Rojas y Solari para el partido ante Barracas Central",
+      "content": "Gabriel Rojas y Santiago Solari entrenaron a la par del plantel y estarán disponibles para el viernes 24. Marco Di Césare también regresa tras cumplir su fecha de suspensión por acumulación de amarillas. Sin embargo, Martirena y Nacho Rodríguez siguen sin poder llegar.",
+      "date": "2026-04-21",
+      "category": "injuries",
+      "source": "elprimergrande.com"
+    },
+    {
+      "title": "Martirena y Nacho Rodríguez en duda para Racing vs Barracas Central",
+      "content": "Gastón Martirena e Ignacio Rodríguez se perfilan para perderse el partido del viernes ante Barracas Central por sus lesiones. Costas tendrá que replantear el esquema para el crucial encuentro donde Racing necesita ganar para asegurar su clasificación a los playoffs.",
+      "date": "2026-04-21",
+      "category": "injuries",
+      "source": "racingdealma.com.ar"
+    },
+    {
+      "title": "Valentín Carboni lesionado: su futuro en Racing es incierto",
+      "content": "El volante llegado de Inter Milan sufrió una lesión de consideración que compromete su participación en lo que resta de la temporada. Damián Pizarro y Elías Torres también siguen recuperándose.",
+      "date": "2026-04-18",
+      "category": "injuries",
+      "source": "eldestapeweb.com"
+    },
+    {
+      "title": "Racing enfrenta una crisis de identidad tras la gestión de Diego Milito",
+      "content": "Análisis: la Academia enfrenta una crisis de identidad en lo deportivo. El plantel no logra reflejar los valores impuestos por la gestión de Milito. El equipo de Costas no encuentra regularidad ni en Liga ni en Copa Sudamericana.",
+      "date": "2026-04-17",
+      "category": "analysis",
+      "source": "panoramapais.com"
+    }
+  ],
+
+  "institutionalNews": [
+    {
+      "title": "La dirigencia de Racing evalúa refuerzos ante la oleada de lesiones",
+      "content": "Ante la crisis deportiva y el alto número de lesionados, la dirigencia de Racing analiza opciones en el mercado de pases para reforzar el plantel. La secretaría técnica trabaja en el diagnóstico del plantel y elabora una lista de posibles incorporaciones.",
+      "date": "2026-04-20",
+      "category": "directive",
+      "source": "fichajes.com"
+    }
+  ]
+}

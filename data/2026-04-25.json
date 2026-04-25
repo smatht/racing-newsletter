@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026-04-25T14:00:00-03:00",
+  "lastUpdated": "2026-04-25",
+  "searchPeriod": "últimas 72 horas",
+  "executiveSummary": "Racing Club atraviesa un momento crítico acumulando 3 partidos sin ganar en el Torneo Apertura 2026 (2 derrotas y 1 empate amargo ante Aldosivi en Mar del Plata). Esta noche recibe a Barracas Central en un partido vital para asegurar su clasificación a los octavos de final, con 19 puntos en la Zona B. En la Copa Sudamericana, el equipo de Costas suma 3 puntos tras ganar en Bolivia y caer de forma agónica ante Botafogo en el Cilindro.",
+
+  "tournamentPositions": [
+    {
+      "name": "Torneo Apertura - Liga Profesional (Zona B)",
+      "position": 8,
+      "played": 15,
+      "wins": 5,
+      "draws": 4,
+      "losses": 6,
+      "points": 19,
+      "goalDifference": -3
+    },
+    {
+      "name": "Copa Sudamericana - Grupo E",
+      "position": 3,
+      "played": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "points": 3,
+      "goalDifference": 1
+    }
+  ],
+
+  "nextMatches": [
+    {
+      "opponent": "Barracas Central",
+      "date": "2026-04-25",
+      "time": "21:30",
+      "stadium": "Estadio Presidente Perón",
+      "city": "Avellaneda",
+      "competition": "Torneo Apertura",
+      "matchday": "Fecha 16"
+    },
+    {
+      "opponent": "Caracas FC",
+      "date": "2026-04-29",
+      "time": "19:00",
+      "stadium": "Estadio Olímpico de la UCV",
+      "city": "Caracas, Venezuela",
+      "competition": "Copa Sudamericana",
+      "matchday": "Fase de Grupos - Jornada 3"
+    },
+    {
+      "opponent": "Huracán",
+      "date": "2026-05-04",
+      "time": "TBD",
+      "stadium": "Estadio Presidente Perón",
+      "city": "Avellaneda",
+      "competition": "Torneo Apertura",
+      "matchday": "Fecha 17 (última)"
+    }
+  ],
+
+  "recentResults": [
+    {
+      "date": "2026-04-19",
+      "home": "Aldosivi",
+      "away": "Racing",
+      "score": "1-1",
+      "competition": "Torneo Apertura - Fecha 15",
+      "result": "draw",
+      "goalScorers": ["Zaracho (Racing)", "Anso (Aldosivi)"]
+    },
+    {
+      "date": "2026-04-15",
+      "home": "Racing",
+      "away": "Botafogo",
+      "score": "2-3",
+      "competition": "Copa Sudamericana - Grupo E - J2",
+      "result": "loss",
+      "goalScorers": ["Sosa (Racing)", "Martínez (Racing)", "Cabral (Botafogo)", "J. Santos (Botafogo)", "Danilo (Botafogo)"]
+    },
+    {
+      "date": "2026-04-13",
+      "home": "Racing",
+      "away": "River Plate",
+      "score": "0-2",
+      "competition": "Torneo Apertura - Fecha 14",
+      "result": "loss",
+      "goalScorers": ["Colidio (River)", "Driussi (River)"]
+    },
+    {
+      "date": "2026-04-07",
+      "home": "Ind. Petrolero",
+      "away": "Racing",
+      "score": "1-3",
+      "competition": "Copa Sudamericana - Grupo E - J1",
+      "result": "win",
+      "goalScorers": ["Fernández (Racing)"]
+    },
+    {
+      "date": "2026-04-04",
+      "home": "Independiente",
+      "away": "Racing",
+      "score": "1-0",
+      "competition": "Torneo Apertura - Fecha 13",
+      "result": "loss",
+      "goalScorers": ["Ávalos (Independiente)"]
+    }
+  ],
+
+  "sportsNews": [
+    {
+      "title": "Santiago Sosa: fuerte conflicto con Racing y su futuro en juego",
+      "content": "El capitán de Racing atraviesa un serio conflicto contractual con la dirigencia. Sosa solicitó a Diego Milito una revisión salarial para equipararse con los sueldos más altos del plantel como el de Maravilla Martínez. La respuesta negativa encendió las alarmas. El volante tiene contrato hasta diciembre de 2027 con cláusula de salida de 12 millones de euros e interés de clubes mexicanos. Decidió posponer cualquier presión hasta el receso del Mundial 2026.",
+      "date": "2026-04-23",
+      "category": "transfers",
+      "source": "minutouno.com"
+    },
+    {
+      "title": "Gabriel Rojas se recuperó y regresa a la convocatoria ante Barracas Central",
+      "content": "El lateral derecho se recuperó del desgarro en el bíceps femoral derecho sufrido en la concentración con la Selección Argentina. Desde el lunes 22 de abril volvió a entrenarse a la par de sus compañeros y fue incluido en la lista de convocados para el partido de esta noche contra Barracas Central, lo que representa una gran noticia para Gustavo Costas.",
+      "date": "2026-04-22",
+      "category": "injuries",
+      "source": "elprimergrande.com"
+    },
+    {
+      "title": "Costas cuestionó la actitud del plantel tras el empate con Aldosivi",
+      "content": "Tras el frustrante empate 1-1 ante Aldosivi en Mar del Plata, el DT Gustavo Costas abandonó la conferencia de prensa sin responder preguntas, acusando a sus jugadores de falta de actitud. El equipo solo ganó uno de los últimos cinco partidos, lo que pone presión máxima sobre el encuentro ante Barracas Central esta noche, vital para sellar la clasificación a los playoffs.",
+      "date": "2026-04-20",
+      "category": "technical",
+      "source": "racingdealma.com.ar"
+    },
+    {
+      "title": "Racing cayó 3-2 ante Botafogo sobre el final en Copa Sudamericana",
+      "content": "La Academia perdió de manera agónica contra Botafogo en el Cilindro de Avellaneda. Racing abrió el marcador con gol de Santiago Sosa al minuto 4 tras error del arquero rival. Botafogo lo dio vuelta antes del descanso con goles de Cabral (23') y J. Santos (41'). Maravilla Martínez igualó en el 64', pero Danilo apareció en el 93' para silenciar el estadio. Botafogo lidera el Grupo E.",
+      "date": "2026-04-15",
+      "category": "results",
+      "source": "infobae.com"
+    }
+  ],
+
+  "institutionalNews": [
+    {
+      "title": "Dirigencia trabaja para resolver el conflicto con Santiago Sosa antes del Mundial",
+      "content": "La dirigencia de Racing Club, liderada por Diego Milito, busca una solución al conflicto contractual con el capitán Santiago Sosa. El mediocampista decidió no presionar mientras el equipo lucha por los playoffs para no desestabilizar al plantel. El receso por el Mundial 2026 será el momento clave para definir si Sosa continúa en Racing o si la institución acepta una oferta del exterior por 12 millones de euros.",
+      "date": "2026-04-24",
+      "category": "directive",
+      "source": "elprimergrande.com"
+    }
+  ]
+}
