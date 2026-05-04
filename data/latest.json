@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-05-04T12:00:00-03:00",
+  "lastUpdated": "2026-05-04",
+  "searchPeriod": "últimas 72 horas",
+  "executiveSummary": "Racing Club clasificó a los octavos de final del Torneo Apertura 2026 tras empatar 0-0 con Huracán en el Cilindro de Avellaneda, aunque atraviesa un delicado momento con solo una victoria en sus últimos siete partidos en todas las competencias. En la Copa Sudamericana se ubica tercero en el Grupo E con 4 puntos en 3 fechas, con el miércoles un crucial duelo ante Botafogo en Brasil donde Racing necesita sumar urgente para no comprometer su clasificación.",
+
+  "tournamentPositions": [
+    {
+      "name": "Liga Profesional - Torneo Apertura 2026 (Grupo B)",
+      "position": 8,
+      "played": 9,
+      "wins": 3,
+      "draws": 3,
+      "losses": 3,
+      "points": 12,
+      "goalDifference": -1
+    },
+    {
+      "name": "Copa Sudamericana 2026 - Grupo E",
+      "position": 3,
+      "played": 3,
+      "wins": 1,
+      "draws": 1,
+      "losses": 1,
+      "points": 4,
+      "goalDifference": 2
+    }
+  ],
+
+  "nextMatches": [
+    {
+      "opponent": "Botafogo",
+      "date": "2026-05-07",
+      "time": "20:30",
+      "stadium": "Estádio Nilton Santos (Engenhão)",
+      "city": "Río de Janeiro, Brasil",
+      "competition": "Copa Sudamericana 2026",
+      "matchday": "Grupo E - Fecha 4"
+    },
+    {
+      "opponent": "Caracas FC",
+      "date": "2026-05-22",
+      "time": "21:00",
+      "stadium": "Presidente Perón",
+      "city": "Avellaneda",
+      "competition": "Copa Sudamericana 2026",
+      "matchday": "Grupo E - Fecha 5"
+    },
+    {
+      "opponent": "Independiente",
+      "date": "2026-05-28",
+      "time": "19:00",
+      "stadium": "Presidente Perón",
+      "city": "Avellaneda",
+      "competition": "Liga Profesional - Torneo Apertura 2026",
+      "matchday": "Octavos de Final"
+    }
+  ],
+
+  "recentResults": [
+    {
+      "date": "2026-05-03",
+      "home": "Racing Club",
+      "away": "Huracán",
+      "score": "0-0",
+      "competition": "Liga Profesional - Torneo Apertura 2026 (Fecha 9)",
+      "result": "draw",
+      "goalScorers": []
+    },
+    {
+      "date": "2026-04-29",
+      "home": "Caracas FC",
+      "away": "Racing Club",
+      "score": "1-1",
+      "competition": "Copa Sudamericana 2026 - Grupo E (Fecha 3)",
+      "result": "draw",
+      "goalScorers": ["Tomás Pérez (42')"]
+    },
+    {
+      "date": "2026-04-24",
+      "home": "Racing Club",
+      "away": "Barracas Central",
+      "score": "1-1",
+      "competition": "Liga Profesional - Torneo Apertura 2026 (Fecha 8)",
+      "result": "draw",
+      "goalScorers": []
+    },
+    {
+      "date": "2026-04-19",
+      "home": "Aldosivi",
+      "away": "Racing Club",
+      "score": "1-1",
+      "competition": "Liga Profesional - Torneo Apertura 2026 (Fecha 7)",
+      "result": "draw",
+      "goalScorers": []
+    },
+    {
+      "date": "2026-04-15",
+      "home": "Racing Club",
+      "away": "Botafogo",
+      "score": "2-3",
+      "competition": "Copa Sudamericana 2026 - Grupo E (Fecha 2)",
+      "result": "loss",
+      "goalScorers": ["Santiago Sosa (4')", "Adrián Martínez (66')"]
+    }
+  ],
+
+  "sportsNews": [
+    {
+      "title": "Racing y Huracán empataron 0-0 y ambos clasificaron a los octavos del Apertura",
+      "content": "En un partido clave por la fecha 9 del Torneo Apertura, Racing igualó sin goles ante Huracán en el Estadio Presidente Perón y aseguró su lugar en los octavos de final. Un gol de Jordy Caicedo para Huracán fue anulado por el VAR por offside. Ambos equipos del Grupo B avanzaron a la siguiente fase pese al flojo encuentro.",
+      "date": "2026-05-03",
+      "category": "results",
+      "source": "anroca.com.ar"
+    },
+    {
+      "title": "Costas puso en duda su continuidad: 'Vamos a ver cómo seguimos'",
+      "content": "El técnico Gustavo Costas expresó incertidumbre sobre su futuro al frente de Racing tras el complicado rendimiento del equipo. Hinchas lo apoyan y cambiaron simbólicamente el nombre de la calle 'Diego Milito' por 'Gustavo Costas' en señal de respaldo. Costas manifestó que no renunciará sin importar los resultados.",
+      "date": "2026-05-03",
+      "category": "coaching",
+      "source": "elprimergrande.com"
+    },
+    {
+      "title": "Gastón Martirena fue baja por lesión ante Huracán",
+      "content": "El lateral derecho quedó descartado por lesión y no pudo participar del duelo decisivo ante Huracán. Sin embargo, Gustavo Costas recibió la vuelta de Santiago Sosa y Adrián Martínez, quienes habían estado ausentes durante la visita a Venezuela.",
+      "date": "2026-05-02",
+      "category": "injuries",
+      "source": "elprimergrande.com"
+    },
+    {
+      "title": "Maravilla Martínez ausente por esguince de rodilla",
+      "content": "El delantero Maravilla Martínez padece un esguince de rodilla y se perdió los últimos compromisos del equipo. Sin fecha de regreso confirmada, su ausencia afecta las alternativas ofensivas de Costas.",
+      "date": "2026-05-02",
+      "category": "injuries",
+      "source": "mdzol.com"
+    },
+    {
+      "title": "Caracas 1-1 Racing: empate que complica el avance en Sudamericana",
+      "content": "Racing igualó ante Caracas 1-1 en Venezuela por la Fecha 3 del Grupo E. Tomás Pérez abrió el marcador en el 42', pero Jesús Yendis empató al inicio del segundo tiempo. Con 4 puntos en 3 fechas, Racing está tercero en el grupo y al borde de la eliminación.",
+      "date": "2026-04-29",
+      "category": "results",
+      "source": "encancha.cl"
+    },
+    {
+      "title": "Valentín Carboni llega cedido por un año a Racing Club",
+      "content": "El mediocampista argentino internacional llega en préstamo sin cargo y sin opción de compra. Refuerza el mediocampo de la Academia para las exigentes competencias del segundo tramo del año.",
+      "date": "2026-04-28",
+      "category": "incorporations",
+      "source": "fichajes.com"
+    },
+    {
+      "title": "Highlights: Racing 2-3 Botafogo (Copa Sudamericana, Fecha 2)",
+      "content": "Racing cayó de manera agónica ante Botafogo en el Cilindro por 3-2 en un partidazo. Sosa (4') y Adrián Martínez (66') anotaron para Racing, pero Danilo marcó en el 93' para el triunfo brasileño. Video completo disponible en YouTube.",
+      "date": "2026-04-15",
+      "category": "highlights",
+      "source": "youtube.com",
+      "videoUrl": "https://www.youtube.com/watch?v=Czynde2mio4"
+    },
+    {
+      "title": "Highlights: Caracas 1-1 Racing (Copa Sudamericana, Fecha 3)",
+      "content": "El partido disputado en el Estadio Olímpico de la UCV finalizó 1-1. Pérez abrió para Racing, Yendis igualó para Caracas. Los mejores momentos del empate están disponibles en YouTube.",
+      "date": "2026-04-29",
+      "category": "highlights",
+      "source": "youtube.com",
+      "videoUrl": "https://www.youtube.com/watch?v=rOq8AuXFxo8"
+    }
+  ],
+
+  "institutionalNews": [
+    {
+      "title": "Racing presentó informe de gestión de 186 páginas bajo la presidencia de Diego Milito",
+      "content": "A ocho meses de la asunción de Diego Milito como presidente, Racing Club presentó un exhaustivo informe de gestión que analiza el estado estructural, institucional y financiero de la Academia. El documento, de 186 páginas, también interpela aspectos de la gestión anterior.",
+      "date": "2026-05-01",
+      "category": "directive",
+      "source": "infobae.com"
+    },
+    {
+      "title": "El mercado de pases reabre el 26 de mayo sin límite de incorporaciones",
+      "content": "La ventana de transferencias se abrirá el 26 de mayo de 2026, permitiendo a los clubes de Primera División incorporar jugadores sin restricciones de cantidad. Racing planea reforzarse de cara al segundo semestre y los octavos de final del Apertura.",
+      "date": "2026-04-30",
+      "category": "transfers",
+      "source": "ligaprofesional.ar"
+    }
+  ]
+}
