@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-07-01T12:00:00-03:00",
+  "lastUpdated": "2026-07-01",
+  "searchPeriod": "últimas 72 horas",
+  "executiveSummary": "Racing hace pretemporada en Cardales bajo las órdenes de Juan Pablo Vojvoda de cara al Clausura 2026 (arranca el 24/7 vs. Gimnasia). El club definió que Damián Pizarro no continúa y avanza en la llegada de Lautaro Díaz como tercer refuerzo, mientras crecen los rumores sobre la salida de Gastón Martirena.",
+
+  "tournamentPositions": [
+    {
+      "name": "Liga Profesional – Apertura 2026 (Zona B, fase regular)",
+      "position": 8,
+      "played": 9,
+      "wins": 6,
+      "draws": 3,
+      "losses": 0,
+      "points": 21,
+      "goalDifference": 8
+    },
+    {
+      "name": "Copa Sudamericana 2026 – Grupo E",
+      "position": 3,
+      "played": 6,
+      "wins": 2,
+      "draws": 1,
+      "losses": 3,
+      "points": 7,
+      "goalDifference": 1
+    }
+  ],
+
+  "nextMatches": [
+    {
+      "opponent": "Defensa y Justicia",
+      "date": "2026-07-16",
+      "time": "18:45",
+      "stadium": "A confirmar",
+      "city": "A confirmar",
+      "competition": "Copa Argentina",
+      "matchday": "Ronda 16"
+    },
+    {
+      "opponent": "Gimnasia de La Plata",
+      "date": "2026-07-24",
+      "time": "19:00",
+      "stadium": "Presidente Perón (El Cilindro)",
+      "city": "Avellaneda",
+      "competition": "Liga Profesional – Clausura 2026",
+      "matchday": "Fecha 1"
+    },
+    {
+      "opponent": "Rosario Central",
+      "date": "2026-07-28",
+      "time": "21:15",
+      "stadium": "Gigante de Arroyito",
+      "city": "Rosario",
+      "competition": "Liga Profesional – Clausura 2026",
+      "matchday": "Fecha 2"
+    },
+    {
+      "opponent": "Tigre",
+      "date": "2026-08-01",
+      "time": "20:30",
+      "stadium": "Presidente Perón (El Cilindro)",
+      "city": "Avellaneda",
+      "competition": "Liga Profesional – Clausura 2026",
+      "matchday": "Fecha 3"
+    }
+  ],
+
+  "recentResults": [
+    {
+      "date": "2026-05-21",
+      "home": "Racing Club",
+      "away": "Caracas FC",
+      "score": "2-2",
+      "competition": "Copa Sudamericana 2026 – Grupo E",
+      "result": "draw",
+      "goalScorers": []
+    },
+    {
+      "date": "2026-05-13",
+      "home": "Rosario Central",
+      "away": "Racing Club",
+      "score": "2-1",
+      "competition": "Liga Profesional Apertura 2026 – Cuartos de Final",
+      "result": "loss",
+      "goalScorers": ["Matías Zaracho"]
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Racing Club",
+      "away": "Estudiantes LP",
+      "score": "1-0",
+      "competition": "Liga Profesional Apertura 2026 – Octavos de Final",
+      "result": "win",
+      "goalScorers": ["Santiago Sosa"]
+    },
+    {
+      "date": "2026-05-06",
+      "home": "Botafogo",
+      "away": "Racing Club",
+      "score": "2-1",
+      "competition": "Copa Sudamericana 2026 – Grupo E",
+      "result": "loss",
+      "goalScorers": []
+    },
+    {
+      "date": "2026-04-15",
+      "home": "Racing Club",
+      "away": "Botafogo",
+      "score": "2-3",
+      "competition": "Copa Sudamericana 2026 – Grupo E",
+      "result": "loss",
+      "goalScorers": ["Santiago Sosa", "Adrián Martínez"]
+    }
+  ],
+
+  "sportsNews": [
+    {
+      "title": "Racing determinó que Damián Pizarro no continúa en el club",
+      "content": "El delantero chileno no viajó con el plantel a la pretemporada en Cardales por decisión de Juan Pablo Vojvoda, que no lo tiene en cuenta. El club buscará rescindir el préstamo, que vencía a fin de año. Pizarro disputó solo seis partidos con la camiseta de Racing y no convirtió goles.",
+      "date": "2026-06-29",
+      "category": "departures",
+      "source": "racingdealma.com.ar"
+    },
+    {
+      "title": "Avanza la llegada de Lautaro Díaz como tercer refuerzo",
+      "content": "El delantero, que se desvinculó de su préstamo en Santos y regresó a Cruzeiro (dueño de su pase), está cerca de sumarse a Racing a préstamo con opción de compra. Es un pedido de Vojvoda, que lo dirigió en Santos, para reforzar el ataque junto a Adrián 'Maravilla' Martínez.",
+      "date": "2026-06-30",
+      "category": "incorporations",
+      "source": "racingdealma.com.ar"
+    },
+    {
+      "title": "Racing entrena en Cardales con 25 jugadores y ausencias",
+      "content": "El plantel se instaló en Cardales para la parte más intensa de la pretemporada, que se extiende hasta el sábado 4 de julio, de cara al debut en el Clausura ante Gimnasia. Pizarro quedó afuera de la delegación y continúa trabajos diferenciados en Buenos Aires.",
+      "date": "2026-06-29",
+      "category": "technical_analysis",
+      "source": "elprimergrande.com"
+    },
+    {
+      "title": "Crecen los rumores sobre la salida de Gastón Martirena",
+      "content": "Un club campeón de la Copa Libertadores mostró interés en sumar al lateral uruguayo, que continúa dentro del plantel de Vojvoda pero podría dejar la institución en este mercado tras la salida de otros defensores como Franco Pardo.",
+      "date": "2026-06-30",
+      "category": "departures",
+      "source": "elprimergrande.com"
+    },
+    {
+      "title": "Valentín Carboni sigue su recuperación en el predio de Racing",
+      "content": "El volante continúa la rehabilitación de la rotura de ligamentos de su rodilla derecha sufrida a comienzos de año. Su regreso a las canchas se estima recién hacia fin de temporada, sin sobresaltos en esta etapa del proceso.",
+      "date": "2026-07-01",
+      "category": "injuries",
+      "source": "elprimergrande.com"
+    }
+  ],
+
+  "institutionalNews": []
+}
