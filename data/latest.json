@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-28T12:00:00-03:00",
-  "lastUpdated": "2026-06-28",
+  "generatedAt": "2026-07-01T12:00:00-03:00",
+  "lastUpdated": "2026-07-01",
   "searchPeriod": "últimas 72 horas",
-  "executiveSummary": "Racing Club atraviesa una etapa de renovación: fue eliminado en cuartos del Torneo Apertura 2026 y no avanzó en la Copa Sudamericana (Grupo E). El 22 de junio asumió Juan Pablo Vojvoda como nuevo entrenador y el club trabaja en la incorporación de refuerzos (Espino, Ortegoza y un delantero) para el Clausura 2026, que arranca el 24 de julio ante Gimnasia.",
+  "executiveSummary": "Racing hace pretemporada en Cardales bajo las órdenes de Juan Pablo Vojvoda de cara al Clausura 2026 (arranca el 24/7 vs. Gimnasia). El club definió que Damián Pizarro no continúa y avanza en la llegada de Lautaro Díaz como tercer refuerzo, mientras crecen los rumores sobre la salida de Gastón Martirena.",
 
   "tournamentPositions": [
     {
@@ -116,56 +116,41 @@
 
   "sportsNews": [
     {
-      "title": "Vojvoda inició su ciclo con la primera práctica en el Cilindro",
-      "content": "Juan Pablo Vojvoda dirigió su primera práctica oficial como entrenador de Racing Club en el Estadio Presidente Perón. El DT, que fue presentado el 22 de junio, ya trabaja en la estructura táctica para el Clausura 2026 y analiza jugadores del fútbol juvenil en la Tita Mattiussi.",
-      "date": "2026-06-26",
-      "category": "technical_staff",
+      "title": "Racing determinó que Damián Pizarro no continúa en el club",
+      "content": "El delantero chileno no viajó con el plantel a la pretemporada en Cardales por decisión de Juan Pablo Vojvoda, que no lo tiene en cuenta. El club buscará rescindir el préstamo, que vencía a fin de año. Pizarro disputó solo seis partidos con la camiseta de Racing y no convirtió goles.",
+      "date": "2026-06-29",
+      "category": "departures",
       "source": "racingdealma.com.ar"
     },
     {
-      "title": "Alfonso Espino, primer refuerzo del ciclo Vojvoda",
-      "content": "El lateral zurdo Alfonso Espino fue confirmado como primer refuerzo de la era Vojvoda. Llega para cubrir el carril izquierdo y reemplazar a Gabriel Rojas, cuyo vínculo con el club no fue renovado tras la salida de Gustavo Costas.",
-      "date": "2026-06-26",
+      "title": "Avanza la llegada de Lautaro Díaz como tercer refuerzo",
+      "content": "El delantero, que se desvinculó de su préstamo en Santos y regresó a Cruzeiro (dueño de su pase), está cerca de sumarse a Racing a préstamo con opción de compra. Es un pedido de Vojvoda, que lo dirigió en Santos, para reforzar el ataque junto a Adrián 'Maravilla' Martínez.",
+      "date": "2026-06-30",
       "category": "incorporations",
-      "source": "elprimergrande.com"
+      "source": "racingdealma.com.ar"
     },
     {
-      "title": "Confirmado: Ulises Ortegoza es el segundo refuerzo de Racing",
-      "content": "Racing cerró la incorporación del volante central Ulises Ortegoza, proveniente de Talleres de Córdoba. El mediocampista era una prioridad para Vojvoda, quien necesitaba jerarquía e intensidad en el centro del campo. Se abona un monto millonario por su pase.",
-      "date": "2026-06-27",
-      "category": "incorporations",
-      "source": "elprimergrande.com"
-    },
-    {
-      "title": "Racing avanza por Lautaro Díaz como tercer refuerzo",
-      "content": "La academia busca cerrar la llegada del delantero Lautaro Díaz en calidad de préstamo con opción de compra. El atacante fue elegido por Vojvoda para acompañar a Maravilla Martínez en la delantera. Las negociaciones están en etapa avanzada.",
-      "date": "2026-06-27",
-      "category": "incorporations",
-      "source": "elprimergrande.com"
-    },
-    {
-      "title": "Racing define su plan defensivo para el Clausura",
-      "content": "El cuerpo técnico de Vojvoda analiza las opciones disponibles en la defensa y estudia posibles movimientos en la zaga para el Clausura 2026, que arranca el 24 de julio. También se busca un mediocampista con perfil más ofensivo como alternativa.",
-      "date": "2026-06-28",
+      "title": "Racing entrena en Cardales con 25 jugadores y ausencias",
+      "content": "El plantel se instaló en Cardales para la parte más intensa de la pretemporada, que se extiende hasta el sábado 4 de julio, de cara al debut en el Clausura ante Gimnasia. Pizarro quedó afuera de la delegación y continúa trabajos diferenciados en Buenos Aires.",
+      "date": "2026-06-29",
       "category": "technical_analysis",
+      "source": "elprimergrande.com"
+    },
+    {
+      "title": "Crecen los rumores sobre la salida de Gastón Martirena",
+      "content": "Un club campeón de la Copa Libertadores mostró interés en sumar al lateral uruguayo, que continúa dentro del plantel de Vojvoda pero podría dejar la institución en este mercado tras la salida de otros defensores como Franco Pardo.",
+      "date": "2026-06-30",
+      "category": "departures",
+      "source": "elprimergrande.com"
+    },
+    {
+      "title": "Valentín Carboni sigue su recuperación en el predio de Racing",
+      "content": "El volante continúa la rehabilitación de la rotura de ligamentos de su rodilla derecha sufrida a comienzos de año. Su regreso a las canchas se estima recién hacia fin de temporada, sin sobresaltos en esta etapa del proceso.",
+      "date": "2026-07-01",
+      "category": "injuries",
       "source": "elprimergrande.com"
     }
   ],
 
-  "institutionalNews": [
-    {
-      "title": "Vojvoda presentado oficialmente: 'Este club exige salir campeón'",
-      "content": "Juan Pablo Vojvoda fue presentado oficialmente el 22 de junio como nuevo entrenador de Racing Club, con contrato hasta junio de 2027. El técnico afirmó que 'este club exige salir campeón' y dejó en claro que el objetivo es pelear todos los torneos. Reemplaza a Gustavo Costas, cuya salida generó conflictos institucionales que se resolvieron antes de la presentación.",
-      "date": "2026-06-22",
-      "category": "directive",
-      "source": "racingclub.com.ar"
-    },
-    {
-      "title": "Racing Club presenta nueva indumentaria Nike para el Clausura 2026",
-      "content": "Como parte del acuerdo de tres años firmado con Nike como sponsor técnico en 2026, Racing Club presentará nueva indumentaria oficial para la temporada Clausura. El acuerdo representa un salto comercial importante para la institución.",
-      "date": "2026-06-25",
-      "category": "commercial",
-      "source": "racingclub.com.ar"
-    }
-  ]
+  "institutionalNews": []
 }
