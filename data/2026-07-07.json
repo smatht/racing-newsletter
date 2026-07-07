@@ -1,0 +1,163 @@
+{
+  "generatedAt": "2026-07-07T12:00:00-03:00",
+  "lastUpdated": "2026-07-07",
+  "searchPeriod": "últimas 72 horas",
+  "executiveSummary": "Racing sigue la pretemporada en Cardales bajo Juan Pablo Vojvoda, con triunfo en su primer amistoso ante Sportivo Barracas y la llegada de Matías Kranevitter como tercer refuerzo confirmado. El club avanza en la salida de Damián Pizarro y Gastón Martirena mientras se acerca el debut oficial: Copa Argentina ante Defensa y Justicia el 16/7 y el arranque del Clausura el 24/7 vs. Gimnasia.",
+
+  "tournamentPositions": [
+    {
+      "name": "Liga Profesional – Apertura 2026 (Zona B, fase regular)",
+      "position": 8,
+      "played": 9,
+      "wins": 6,
+      "draws": 3,
+      "losses": 0,
+      "points": 21,
+      "goalDifference": 8
+    },
+    {
+      "name": "Copa Sudamericana 2026 – Grupo E",
+      "position": 3,
+      "played": 6,
+      "wins": 2,
+      "draws": 1,
+      "losses": 3,
+      "points": 7,
+      "goalDifference": 1
+    }
+  ],
+
+  "nextMatches": [
+    {
+      "opponent": "Defensa y Justicia",
+      "date": "2026-07-16",
+      "time": "18:45",
+      "stadium": "A confirmar (Banfield o Lanús)",
+      "city": "Buenos Aires (AMBA)",
+      "competition": "Copa Argentina",
+      "matchday": "Dieciseisavos de final"
+    },
+    {
+      "opponent": "Gimnasia de La Plata",
+      "date": "2026-07-24",
+      "time": "19:00",
+      "stadium": "Presidente Perón (El Cilindro)",
+      "city": "Avellaneda",
+      "competition": "Liga Profesional – Clausura 2026",
+      "matchday": "Fecha 1"
+    },
+    {
+      "opponent": "Rosario Central",
+      "date": "2026-07-28",
+      "time": "21:15",
+      "stadium": "Gigante de Arroyito",
+      "city": "Rosario",
+      "competition": "Liga Profesional – Clausura 2026",
+      "matchday": "Fecha 2"
+    },
+    {
+      "opponent": "Tigre",
+      "date": "2026-08-01",
+      "time": "20:30",
+      "stadium": "Presidente Perón (El Cilindro)",
+      "city": "Avellaneda",
+      "competition": "Liga Profesional – Clausura 2026",
+      "matchday": "Fecha 3"
+    }
+  ],
+
+  "recentResults": [
+    {
+      "date": "2026-07-04",
+      "home": "Racing Club",
+      "away": "Sportivo Barracas",
+      "score": "5-3",
+      "competition": "Amistoso de pretemporada",
+      "result": "win",
+      "goalScorers": ["Tomás Conechny (2)", "Adrián Martínez", "Santiago Solari", "Tomás Pérez"]
+    },
+    {
+      "date": "2026-05-21",
+      "home": "Racing Club",
+      "away": "Caracas FC",
+      "score": "2-2",
+      "competition": "Copa Sudamericana 2026 – Grupo E",
+      "result": "draw",
+      "goalScorers": []
+    },
+    {
+      "date": "2026-05-13",
+      "home": "Rosario Central",
+      "away": "Racing Club",
+      "score": "2-1",
+      "competition": "Liga Profesional Apertura 2026 – Cuartos de Final",
+      "result": "loss",
+      "goalScorers": ["Matías Zaracho"]
+    },
+    {
+      "date": "2026-05-10",
+      "home": "Racing Club",
+      "away": "Estudiantes LP",
+      "score": "1-0",
+      "competition": "Liga Profesional Apertura 2026 – Octavos de Final",
+      "result": "win",
+      "goalScorers": ["Santiago Sosa"]
+    },
+    {
+      "date": "2026-05-06",
+      "home": "Botafogo",
+      "away": "Racing Club",
+      "score": "2-1",
+      "competition": "Copa Sudamericana 2026 – Grupo E",
+      "result": "loss",
+      "goalScorers": []
+    }
+  ],
+
+  "sportsNews": [
+    {
+      "title": "Racing ganó su primer amistoso de pretemporada ante Sportivo Barracas",
+      "content": "En Cardales, la Academia se impuso 5-3 en un partido dividido en dos mitades de 35 minutos bajo las órdenes de Juan Pablo Vojvoda. Goles de Tomás Conechny (2) y Adrián 'Maravilla' Martínez en el primer tiempo (3-2), y de Santiago Solari y Tomás Pérez en el complemento (2-1).",
+      "date": "2026-07-04",
+      "category": "technical_analysis",
+      "source": "racingdealma.com.ar"
+    },
+    {
+      "title": "Matías Kranevitter, confirmado como tercer refuerzo de Racing",
+      "content": "El mediocampista tucumano, ex River Plate y Sevilla, quedó libre de Fatih Karagümrük (Turquía) y firmó contrato con la Academia hasta junio de 2027, convirtiéndose en la tercera incorporación del ciclo Vojvoda tras Ulises Ortegoza y Alfonso Espino.",
+      "date": "2026-07-04",
+      "category": "incorporations",
+      "source": "soydelmillo.com"
+    },
+    {
+      "title": "Avanza la salida de Damián Pizarro, que buscaría continuidad en Chile",
+      "content": "El delantero chileno, a préstamo de Udinese, no fue tenido en cuenta por Vojvoda durante la pretemporada. Racing negocia la rescisión anticipada del préstamo y Audax Italiano aparece como principal candidato para recibirlo.",
+      "date": "2026-07-04",
+      "category": "departures",
+      "source": "elprimergrande.com"
+    },
+    {
+      "title": "Gastón Martirena y Agustín García Basso, también en la lista de salidas",
+      "content": "Además de Pizarro, el lateral uruguayo Martirena y el defensor García Basso buscan una salida del club en este mercado, continuando la reestructuración del plantel encarada por Diego Milito y Sebastián Saja de cara al segundo semestre.",
+      "date": "2026-07-03",
+      "category": "departures",
+      "source": "racingdealma.com.ar"
+    },
+    {
+      "title": "Copa Argentina confirmó día y horario para Racing vs. Defensa y Justicia",
+      "content": "El cruce de dieciseisavos de final se jugará el jueves 16 de julio a las 18:45, marcando el debut oficial de Juan Pablo Vojvoda al frente de Racing. La sede aún no está confirmada, con los estadios de Banfield y Lanús como principales candidatos.",
+      "date": "2026-07-05",
+      "category": "technical_analysis",
+      "source": "elprimergrande.com"
+    },
+    {
+      "title": "Racing evalúa un amistoso ante Cerro Porteño",
+      "content": "Tras el cierre de los trabajos intensivos en Cardales, la Academia analiza disputar un amistoso ante el conjunto paraguayo Cerro Porteño el miércoles 8 de julio en Avellaneda, aún sin confirmación oficial.",
+      "date": "2026-07-06",
+      "category": "technical_analysis",
+      "source": "racingdealma.com.ar"
+    }
+  ],
+
+  "institutionalNews": []
+}
