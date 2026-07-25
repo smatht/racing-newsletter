@@ -1,164 +1,115 @@
 {
-  "generatedAt": "2026-07-13T12:00:00-03:00",
-  "lastUpdated": "2026-07-13",
-  "searchPeriod": "últimas 72 horas",
-  "executiveSummary": "Racing cierra la pretemporada en Cardales bajo Juan Pablo Vojvoda con un triunfo 3-0 ante Gimnasia de Mendoza, mientras se confirma que Roger Martínez no regresará al club y Matías Zaracho continuará en el plantel pese al interés de Universidad de Chile. La Academia ya tiene fecha para su debut oficial: Copa Argentina ante Defensa y Justicia el jueves 16/7, previo al arranque del Clausura el 24/7 frente a Gimnasia de La Plata.",
+  "generatedAt": "2026-07-25T09:00:00-03:00",
+  "lastUpdated": "2026-07-25",
+  "searchPeriod": "últimos 9 días (16-25 de julio de 2026)",
+  "executiveSummary": "Racing arrancó el Torneo Clausura 2026 con un triunfo 2-1 sobre Gimnasia La Plata en el Cilindro, su regreso como local ante su gente tras seis presentaciones como visitante. En la Copa Argentina, la Academia avanzó a cuartos de final luego de golear 4-1 a Defensa y Justicia, y el plantel sumó a préstamo al delantero Lautaro Díaz proveniente de Cruzeiro.",
 
   "tournamentPositions": [
     {
-      "name": "Liga Profesional – Apertura 2026 (Zona B, fase regular)",
-      "position": 8,
-      "played": 9,
-      "wins": 6,
-      "draws": 3,
+      "name": "Liga Profesional - Torneo Clausura",
+      "position": null,
+      "played": 1,
+      "wins": 1,
+      "draws": 0,
       "losses": 0,
-      "points": 21,
-      "goalDifference": 8
+      "points": 3,
+      "goalDifference": 1
     },
     {
-      "name": "Copa Sudamericana 2026 – Grupo E (eliminado en fase de grupos)",
-      "position": 3,
-      "played": 6,
+      "name": "Copa Argentina",
+      "position": null,
+      "played": 2,
       "wins": 2,
-      "draws": 1,
-      "losses": 3,
-      "points": 7,
-      "goalDifference": 1
+      "draws": 0,
+      "losses": 0,
+      "points": null,
+      "goalDifference": 4
     }
   ],
 
   "nextMatches": [
     {
-      "opponent": "Defensa y Justicia",
-      "date": "2026-07-16",
-      "time": "18:45",
-      "stadium": "A confirmar (Banfield, Lanús o Quilmes)",
-      "city": "Buenos Aires (AMBA)",
-      "competition": "Copa Argentina",
-      "matchday": "Dieciseisavos de final"
-    },
-    {
-      "opponent": "Gimnasia de La Plata",
-      "date": "2026-07-24",
-      "time": "19:00",
-      "stadium": "Presidente Perón (El Cilindro)",
-      "city": "Avellaneda",
-      "competition": "Liga Profesional – Clausura 2026",
-      "matchday": "Fecha 1"
-    },
-    {
       "opponent": "Rosario Central",
-      "date": "2026-07-28",
-      "time": "21:15",
+      "date": "2026-07-29",
+      "time": "21:00",
       "stadium": "Gigante de Arroyito",
       "city": "Rosario",
-      "competition": "Liga Profesional – Clausura 2026",
+      "competition": "Liga Profesional - Torneo Clausura",
       "matchday": "Fecha 2"
     },
     {
       "opponent": "Tigre",
-      "date": "2026-08-01",
-      "time": "20:30",
-      "stadium": "Presidente Perón (El Cilindro)",
+      "date": "2026-08-02",
+      "time": "15:00",
+      "stadium": "Presidente Perón",
       "city": "Avellaneda",
-      "competition": "Liga Profesional – Clausura 2026",
+      "competition": "Liga Profesional - Torneo Clausura",
       "matchday": "Fecha 3"
+    },
+    {
+      "opponent": "Argentinos Juniors",
+      "date": "2026-08-09",
+      "time": "14:00",
+      "stadium": "Diego Armando Maradona",
+      "city": "Buenos Aires",
+      "competition": "Liga Profesional - Torneo Clausura",
+      "matchday": "Fecha 4"
+    },
+    {
+      "opponent": "Banfield",
+      "date": "2026-08-16",
+      "time": "14:00",
+      "stadium": "Presidente Perón",
+      "city": "Avellaneda",
+      "competition": "Liga Profesional - Torneo Clausura",
+      "matchday": "Fecha 5"
     }
   ],
 
   "recentResults": [
     {
-      "date": "2026-07-11",
-      "home": "Racing Club",
-      "away": "Gimnasia de Mendoza",
-      "score": "3-0",
-      "competition": "Amistoso de pretemporada",
-      "result": "win",
-      "goalScorers": ["Santiago Solari (2)", "Adrián Martínez"]
-    },
-    {
-      "date": "2026-07-08",
-      "home": "Racing Club",
-      "away": "Cerro Porteño",
-      "score": "0-0",
-      "competition": "Amistoso de pretemporada",
-      "result": "draw",
-      "goalScorers": []
-    },
-    {
-      "date": "2026-07-04",
-      "home": "Racing Club",
-      "away": "Sportivo Barracas",
-      "score": "5-3",
-      "competition": "Amistoso de pretemporada",
-      "result": "win",
-      "goalScorers": ["Tomás Conechny (2)", "Adrián Martínez", "Santiago Solari", "Tomás Pérez"]
-    },
-    {
-      "date": "2026-05-13",
-      "home": "Rosario Central",
-      "away": "Racing Club",
+      "date": "2026-07-24",
+      "home": "Racing",
+      "away": "Gimnasia La Plata",
       "score": "2-1",
-      "competition": "Liga Profesional Apertura 2026 – Cuartos de Final",
-      "result": "loss",
-      "goalScorers": ["Matías Zaracho"]
+      "competition": "Liga Profesional - Torneo Clausura",
+      "result": "win",
+      "goalScorers": ["Miljevic", "Colombo"]
     },
     {
-      "date": "2026-05-10",
-      "home": "Racing Club",
-      "away": "Estudiantes LP",
-      "score": "1-0",
-      "competition": "Liga Profesional Apertura 2026 – Octavos de Final",
+      "date": "2026-07-16",
+      "home": "Racing",
+      "away": "Defensa y Justicia",
+      "score": "4-1",
+      "competition": "Copa Argentina",
       "result": "win",
-      "goalScorers": ["Santiago Sosa"]
+      "goalScorers": ["Miljevic", "Rojo", "Sosa", "Martínez"]
     }
   ],
 
   "sportsNews": [
     {
-      "title": "Racing goleó 3-0 a Gimnasia de Mendoza en su último amistoso de pretemporada",
-      "content": "En cancha de Tita Mattiussi, la Academia venció por 3-0 con dos goles de Santiago Solari y uno de Adrián Martínez, cerrando así los amistosos de pretemporada antes del debut oficial del jueves ante Defensa y Justicia por Copa Argentina.",
-      "date": "2026-07-11",
-      "category": "technical_analysis",
-      "source": "elprimergrande.com"
+      "title": "Racing venció 2-1 a Gimnasia y arrancó ganando el Clausura",
+      "content": "Con goles de Matko Miljevic y Nazareno Colombo, Racing derrotó 2-1 a Gimnasia La Plata en el debut del Torneo Clausura 2026, en su primer partido como local ante su gente tras seis presentaciones consecutivas como visitante.",
+      "date": "2026-07-24",
+      "category": "analysis",
+      "source": "espn.com.ar"
     },
     {
-      "title": "Roger Martínez descartó su regreso pese al llamado de Diego Milito",
-      "content": "El entorno del delantero colombiano confirmó que continuará su carrera en el exterior y no contempla volver al fútbol argentino, enfriando las gestiones que había iniciado la dirigencia de Racing. Además persiste un litigio judicial entre el jugador y el club por 323.000 euros correspondientes a un porcentaje de su venta a Jiangsu Suning en 2016.",
-      "date": "2026-07-10",
+      "title": "Lautaro Díaz llegó a préstamo desde Cruzeiro",
+      "content": "El delantero Lautaro Díaz se incorporó a préstamo por una temporada, con opción de compra, luego de rescindir su vínculo con Santos, donde jugaba cedido por Cruzeiro.",
+      "date": "2026-07-21",
       "category": "incorporations",
-      "source": "elprimergrande.com"
+      "source": "otempo.com.br"
     },
     {
-      "title": "Racing descarta la salida de Matías Zaracho a Universidad de Chile",
-      "content": "Pese a los rumores en Chile, desde Racing se descartó cualquier negociación por el mediocampista: el club trasandino no está en condiciones económicas de afrontar su salario. Zaracho terminó la pretemporada sin problemas físicos y es uno de los titulares que baraja Vojvoda.",
-      "date": "2026-07-10",
-      "category": "departures",
-      "source": "racingdealma.com.ar"
-    },
-    {
-      "title": "Confirmado el debut de Vojvoda: Racing vs. Defensa y Justicia el jueves 16/7",
-      "content": "El cruce de dieciseisavos de final de Copa Argentina se jugará a las 18:45 y marcará el estreno oficial de Juan Pablo Vojvoda en el banco de la Academia. La sede definitiva sigue en duda entre Banfield, Lanús y Quilmes.",
-      "date": "2026-07-12",
-      "category": "technical_analysis",
-      "source": "racingdealma.com.ar"
-    },
-    {
-      "title": "Matías Kranevitter completó la revisión médica y quedó habilitado para el debut",
-      "content": "El mediocampista, tercer refuerzo del ciclo Vojvoda tras Ortegoza y Espino, se sumó a los entrenamientos y podría estar disponible para el estreno oficial del jueves ante Defensa y Justicia por Copa Argentina.",
-      "date": "2026-07-11",
-      "category": "incorporations",
-      "source": "elprimergrande.com"
+      "title": "Racing goleó 4-1 a Defensa y Justicia y avanzó a cuartos de final de la Copa Argentina",
+      "content": "Con tantos de Miljevic, Rojo, Sosa y Martínez, la Academia se impuso en el estadio de Quilmes y clasificó a cuartos de final del certamen.",
+      "date": "2026-07-16",
+      "category": "analysis",
+      "source": "lanacion.com.ar"
     }
   ],
 
-  "institutionalNews": [
-    {
-      "title": "Racing reprogramó las Asambleas General Ordinaria y Extraordinaria para el 11 de agosto",
-      "content": "La Comisión Directiva modificó la fecha originalmente prevista (30/7) por pedido de la A.Pre.Vi.De. de la Provincia de Buenos Aires, al superponerse con un partido de Independiente como local. Se mantienen el horario, el lugar y el temario, que incluye el presupuesto económico-financiero y la aprobación del estatuto de la Fundación Racing Club.",
-      "date": "2026-07-10",
-      "category": "directive",
-      "source": "racingclub.com.ar"
-    }
-  ]
+  "institutionalNews": []
 }
