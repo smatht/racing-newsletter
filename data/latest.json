@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-07-28T09:00:00-03:00",
-  "lastUpdated": "2026-07-28",
-  "searchPeriod": "últimas 72 horas (25-28 de julio de 2026)",
-  "executiveSummary": "Racing no disputó partidos en las últimas 72 horas: el plantel de Gustavo Costas entrena de cara a la visita a Rosario Central del miércoles 29 de julio, por la fecha 2 del Torneo Clausura, tras el triunfo 2-1 sobre Gimnasia La Plata en el debut. En paralelo, la Academia espera rival en cuartos de final de la Copa Argentina.",
+  "generatedAt": "2026-07-30T21:11:02-03:00",
+  "lastUpdated": "2026-07-30",
+  "searchPeriod": "últimas 72 horas (28-30 de julio de 2026)",
+  "executiveSummary": "Racing empató 0-0 con Rosario Central en Arroyito por la fecha 2 del Torneo Clausura y quedó 2° en la tabla con 4 puntos, tras el triunfo debut 2-1 ante Gimnasia La Plata. El equipo de Gustavo Costas recibirá a Tigre el sábado 1° de agosto y ya conoce a Belgrano como rival en los octavos de final de la Copa Argentina. Buenas noticias en lo futbolístico: Elías Torres volvió a jugar tras nueve meses recuperándose de una rotura de ligamento cruzado.",
 
   "tournamentPositions": [
     {
       "name": "Liga Profesional - Torneo Clausura",
-      "position": null,
-      "played": 1,
+      "position": 2,
+      "played": 2,
       "wins": 1,
-      "draws": 0,
+      "draws": 1,
       "losses": 0,
-      "points": 3,
+      "points": 4,
       "goalDifference": 1
     },
     {
@@ -29,18 +29,9 @@
 
   "nextMatches": [
     {
-      "opponent": "Rosario Central",
-      "date": "2026-07-29",
-      "time": "21:00",
-      "stadium": "Gigante de Arroyito",
-      "city": "Rosario",
-      "competition": "Liga Profesional - Torneo Clausura",
-      "matchday": "Fecha 2"
-    },
-    {
       "opponent": "Tigre",
-      "date": "2026-08-02",
-      "time": "15:00",
+      "date": "2026-08-01",
+      "time": "20:30",
       "stadium": "Presidente Perón",
       "city": "Avellaneda",
       "competition": "Liga Profesional - Torneo Clausura",
@@ -63,10 +54,28 @@
       "city": "Avellaneda",
       "competition": "Liga Profesional - Torneo Clausura",
       "matchday": "Fecha 5"
+    },
+    {
+      "opponent": "Belgrano",
+      "date": "2026-08-30",
+      "time": null,
+      "stadium": "A confirmar",
+      "city": null,
+      "competition": "Copa Argentina",
+      "matchday": "Octavos de Final"
     }
   ],
 
   "recentResults": [
+    {
+      "date": "2026-07-28",
+      "home": "Rosario Central",
+      "away": "Racing",
+      "score": "0-0",
+      "competition": "Liga Profesional - Torneo Clausura",
+      "result": "draw",
+      "goalScorers": []
+    },
     {
       "date": "2026-07-24",
       "home": "Racing",
@@ -87,7 +96,37 @@
     }
   ],
 
-  "sportsNews": [],
+  "sportsNews": [
+    {
+      "title": "Elías Torres volvió a jugar tras nueve meses de recuperación",
+      "content": "El delantero ingresó ante Rosario Central y reapareció en Primera después de recuperarse de la rotura de ligamento cruzado de rodilla derecha que sufrió el 6 de octubre de 2025 frente a Independiente Rivadavia. Estuvo fuera toda la primera mitad de 2026.",
+      "date": "2026-07-28",
+      "category": "injuries",
+      "source": "racingdealma.com.ar"
+    },
+    {
+      "title": "Racing ya tiene rival confirmado en los octavos de la Copa Argentina",
+      "content": "Tras eliminar a Defensa y Justicia por 4-1, Racing enfrentará a Belgrano de Córdoba en los octavos de final. La fecha prevista es el domingo 30 de agosto, con sede aún por confirmarse.",
+      "date": "2026-07-30",
+      "category": "analysis",
+      "source": "racingclub.com.ar / lanacion.com.ar"
+    },
+    {
+      "title": "Resumen en video: Racing 2-1 Gimnasia La Plata (Fecha 1, Torneo Clausura)",
+      "content": "Goles de Matko Miljevic y Nazareno Colombo en el triunfo de Racing en el debut del Torneo Clausura 2026 en el Cilindro de Avellaneda.",
+      "date": "2026-07-24",
+      "category": "video",
+      "source": "https://www.youtube.com/watch?v=lBOPOPBD_w8"
+    }
+  ],
 
-  "institutionalNews": []
+  "institutionalNews": [
+    {
+      "title": "Se postergaron las Asambleas General Ordinaria y Extraordinaria",
+      "content": "Las asambleas de Racing Club, originalmente previstas para el 30 de julio, fueron reprogramadas para el 11 de agosto de 2026 a pedido de la Agencia de Prevención de la Violencia en el Deporte, por razones de seguridad vinculadas a un partido de Independiente ese mismo día.",
+      "date": "2026-07-30",
+      "category": "directive",
+      "source": "racingclub.com.ar"
+    }
+  ]
 }
