@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-01T11:00:00-03:00",
-  "lastUpdated": "2026-08-01",
-  "searchPeriod": "últimas 72 horas (29 de julio al 1 de agosto de 2026)",
-  "executiveSummary": "Racing, ahora dirigido por Juan Pablo Vojvoda, comparte el 3° puesto del Grupo B del Torneo Clausura con 4 puntos (1 triunfo y 1 empate) y esta noche recibe a Tigre en el Cilindro por la fecha 3, con el regreso de Adrián Martínez tras cumplir su suspensión. En la Copa Argentina espera los octavos de final ante Belgrano, ahora reprogramados para el 19 de agosto. Las asambleas del club, pospuestas por razones de seguridad, se realizarán el 11 de agosto.",
+  "generatedAt": "2026-08-04T09:00:00-03:00",
+  "lastUpdated": "2026-08-04",
+  "searchPeriod": "últimas 72 horas (1 al 4 de agosto de 2026)",
+  "executiveSummary": "Racing sufrió su primera derrota en el ciclo Vojvoda al caer 3-1 ante Tigre como local por la fecha 3 del Torneo Clausura, resultado que lo dejó 6° en la Zona B con 4 puntos y generó fuertes críticas de los hinchas hacia la dirigencia. El plantel ya mira el cruce del sábado 9 de agosto ante Argentinos Juniors, mientras espera la confirmación oficial de sede para los octavos de Copa Argentina ante Belgrano el 19 de agosto.",
 
   "tournamentPositions": [
     {
-      "name": "Liga Profesional - Torneo Clausura (Grupo B)",
-      "position": 3,
-      "played": 2,
+      "name": "Liga Profesional - Torneo Clausura (Zona B)",
+      "position": 6,
+      "played": 3,
       "wins": 1,
       "draws": 1,
-      "losses": 0,
+      "losses": 1,
       "points": 4,
-      "goalDifference": 1
+      "goalDifference": -1
     },
     {
       "name": "Copa Argentina",
@@ -28,15 +28,6 @@
   ],
 
   "nextMatches": [
-    {
-      "opponent": "Tigre",
-      "date": "2026-08-01",
-      "time": "20:30",
-      "stadium": "Presidente Perón",
-      "city": "Avellaneda",
-      "competition": "Liga Profesional - Torneo Clausura",
-      "matchday": "Fecha 3"
-    },
     {
       "opponent": "Argentinos Juniors",
       "date": "2026-08-09",
@@ -68,6 +59,15 @@
 
   "recentResults": [
     {
+      "date": "2026-08-01",
+      "home": "Racing",
+      "away": "Tigre",
+      "score": "1-3",
+      "competition": "Liga Profesional - Torneo Clausura",
+      "result": "loss",
+      "goalScorers": ["Vergara"]
+    },
+    {
       "date": "2026-07-28",
       "home": "Rosario Central",
       "away": "Racing",
@@ -98,42 +98,27 @@
 
   "sportsNews": [
     {
-      "title": "Copa Argentina: se reprogramó la fecha del cruce ante Belgrano en los octavos",
-      "content": "El partido de octavos de final, previsto originalmente para el 30 de agosto, se adelantó al miércoles 19 de agosto a la espera de la confirmación oficial de la AFA. La sede todavía no está definida: el Estadio Único La Pedrera (Villa Mercedes, San Luis) aparece como principal candidata, aunque Rosario también suena como alternativa.",
-      "date": "2026-07-31",
-      "category": "analysis",
-      "source": "cadena3.com"
-    },
-    {
-      "title": "Vuelve Adrián \"Maravilla\" Martínez para recibir a Tigre",
-      "content": "Juan Pablo Vojvoda recupera al delantero, que cumplió sus dos fechas de suspensión, de cara al partido de esta noche por la fecha 3 del Clausura ante Tigre en el Cilindro. Dirigirá el encuentro Yael Falcón Pérez.",
+      "title": "Tigre goleó 3-1 a Racing en el Cilindro y cortó el invicto de Vojvoda",
+      "content": "Con goles de Gonzalo 'Pity' Martínez, Martín Garay e Ignacio Russo, Tigre se impuso 3-1 en Avellaneda por la fecha 3 del Torneo Clausura. Racing, que había llegado invicto con Juan Pablo Vojvoda al mando, descontó con Duván Vergara y sufrió su primera caída en el ciclo del entrenador, con errores defensivos determinantes.",
       "date": "2026-08-01",
+      "category": "analysis",
+      "source": "infobae.com / vavel.com"
+    },
+    {
+      "title": "Vojvoda pidió unidad tras la primera derrota de su ciclo",
+      "content": "Tras la caída ante Tigre, el entrenador reconoció que el equipo 'no ejecutó lo trabajado' y pidió unión puertas adentro del club en un contexto de tensión, con las tribunas del Cilindro dirigiendo fuertes críticas hacia la dirigencia durante y después del partido.",
+      "date": "2026-08-02",
       "category": "team_changes",
-      "source": "lanacion.com.ar"
+      "source": "elintransigente.com"
     },
     {
-      "title": "Resumen en video: Rosario Central 0-0 Racing (Fecha 2, Torneo Clausura)",
-      "content": "Racing igualó sin goles en el Gigante de Arroyito. Lautaro Díaz falló un mano a mano y Santiago Solari estrelló un remate en el palo por el local, mientras Racing generó menos volumen de juego pero se llevó un punto.",
-      "date": "2026-07-28",
+      "title": "Resumen en video: Racing 1-3 Tigre (Fecha 3, Torneo Clausura)",
+      "content": "Resumen con los goles del partido jugado en el Cilindro de Avellaneda: apertura de Pity Martínez, ampliación de Martín Garay, descuento de Duván Vergara para Racing y cierre de Ignacio Russo para el triunfo de Tigre.",
+      "date": "2026-08-01",
       "category": "video",
-      "source": "https://dailygoal.tv/m/5_-gQJDGdRo/rosario-central-vs-racing-club"
-    },
-    {
-      "title": "Resumen en video: Racing 2-1 Gimnasia La Plata (Fecha 1, Torneo Clausura)",
-      "content": "Goles de Matko Miljevic y Nazareno Colombo en el triunfo de Racing en el debut del Torneo Clausura 2026 en el Cilindro de Avellaneda.",
-      "date": "2026-07-24",
-      "category": "video",
-      "source": "https://www.youtube.com/watch?v=lBOPOPBD_w8"
+      "source": "https://www.youtube.com/watch?v=gdkDfrS8YzQ"
     }
   ],
 
-  "institutionalNews": [
-    {
-      "title": "Se postergaron las Asambleas General Ordinaria y Extraordinaria",
-      "content": "Las asambleas de Racing Club, originalmente previstas para el 30 de julio, fueron reprogramadas para el 11 de agosto de 2026 a pedido de la Agencia de Prevención de la Violencia en el Deporte, por razones de seguridad vinculadas a un partido de Independiente ese mismo día.",
-      "date": "2026-07-30",
-      "category": "directive",
-      "source": "racingclub.com.ar"
-    }
-  ]
+  "institutionalNews": []
 }
