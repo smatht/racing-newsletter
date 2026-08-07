@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-04T09:00:00-03:00",
-  "lastUpdated": "2026-08-04",
-  "searchPeriod": "últimas 72 horas (1 al 4 de agosto de 2026)",
-  "executiveSummary": "Racing sufrió su primera derrota en el ciclo Vojvoda al caer 3-1 ante Tigre como local por la fecha 3 del Torneo Clausura, resultado que lo dejó 6° en la Zona B con 4 puntos y generó fuertes críticas de los hinchas hacia la dirigencia. El plantel ya mira el cruce del sábado 9 de agosto ante Argentinos Juniors, mientras espera la confirmación oficial de sede para los octavos de Copa Argentina ante Belgrano el 19 de agosto.",
+  "generatedAt": "2026-08-07T09:00:00-03:00",
+  "lastUpdated": "2026-08-07",
+  "searchPeriod": "últimas 72 horas (4 al 7 de agosto de 2026)",
+  "executiveSummary": "Racing atraviesa un momento de tensión tras la derrota 1-3 ante Tigre: el plantel se prepara para visitar a Argentinos Juniors el domingo 9 de agosto mientras crece el malestar de los hinchas hacia el presidente Diego Milito. En paralelo, el club acordó la salida del capitán Santiago Sosa a Vasco da Gama, negociación que generó fricciones internas en el plantel. Racing marcha 6° en la Zona B del Torneo Clausura con 4 puntos y sigue con vida en la Copa Argentina, donde espera los octavos de final ante Belgrano.",
 
   "tournamentPositions": [
     {
@@ -31,16 +31,16 @@
     {
       "opponent": "Argentinos Juniors",
       "date": "2026-08-09",
-      "time": "14:00",
+      "time": "20:15",
       "stadium": "Diego Armando Maradona",
-      "city": "Buenos Aires",
+      "city": "Buenos Aires (La Paternal)",
       "competition": "Liga Profesional - Torneo Clausura",
       "matchday": "Fecha 4"
     },
     {
       "opponent": "Banfield",
-      "date": "2026-08-16",
-      "time": "14:00",
+      "date": "2026-08-14",
+      "time": "20:30",
       "stadium": "Presidente Perón",
       "city": "Avellaneda",
       "competition": "Liga Profesional - Torneo Clausura",
@@ -50,10 +50,19 @@
       "opponent": "Belgrano",
       "date": "2026-08-19",
       "time": null,
-      "stadium": "A confirmar (posible Estadio Único La Pedrera, San Luis)",
+      "stadium": "A confirmar",
       "city": null,
       "competition": "Copa Argentina",
       "matchday": "Octavos de Final"
+    },
+    {
+      "opponent": "Boca Juniors",
+      "date": "2026-08-23",
+      "time": "21:30",
+      "stadium": "Presidente Perón",
+      "city": "Avellaneda",
+      "competition": "Liga Profesional - Torneo Clausura",
+      "matchday": "Fecha 6"
     }
   ],
 
@@ -93,32 +102,49 @@
       "competition": "Copa Argentina",
       "result": "win",
       "goalScorers": ["Miljevic", "Rojo", "Sosa", "Martínez"]
+    },
+    {
+      "date": "2026-03-28",
+      "home": "Racing",
+      "away": "San Martín de Formosa",
+      "score": "1-0",
+      "competition": "Copa Argentina",
+      "result": "win",
+      "goalScorers": ["Martínez"]
     }
   ],
 
   "sportsNews": [
     {
-      "title": "Tigre goleó 3-1 a Racing en el Cilindro y cortó el invicto de Vojvoda",
-      "content": "Con goles de Gonzalo 'Pity' Martínez, Martín Garay e Ignacio Russo, Tigre se impuso 3-1 en Avellaneda por la fecha 3 del Torneo Clausura. Racing, que había llegado invicto con Juan Pablo Vojvoda al mando, descontó con Duván Vergara y sufrió su primera caída en el ciclo del entrenador, con errores defensivos determinantes.",
-      "date": "2026-08-01",
-      "category": "analysis",
-      "source": "infobae.com / vavel.com"
-    },
-    {
-      "title": "Vojvoda pidió unidad tras la primera derrota de su ciclo",
-      "content": "Tras la caída ante Tigre, el entrenador reconoció que el equipo 'no ejecutó lo trabajado' y pidió unión puertas adentro del club en un contexto de tensión, con las tribunas del Cilindro dirigiendo fuertes críticas hacia la dirigencia durante y después del partido.",
-      "date": "2026-08-02",
-      "category": "team_changes",
-      "source": "elintransigente.com"
+      "title": "Racing acordó la salida de Santiago Sosa a Vasco da Gama",
+      "content": "El capitán, en desacuerdo con los tiempos de la negociación, se entrenó por separado el jueves 6 de agosto. Racing recibiría un pago inicial de USD 3,5 millones sobre una operación de unos USD 8 millones brutos, y el jugador ya tendría contrato acordado con Vasco da Gama hasta diciembre de 2029.",
+      "date": "2026-08-06",
+      "category": "transfers",
+      "source": "racingdealma.com.ar / elintransigente.com"
     },
     {
       "title": "Resumen en video: Racing 1-3 Tigre (Fecha 3, Torneo Clausura)",
-      "content": "Resumen con los goles del partido jugado en el Cilindro de Avellaneda: apertura de Pity Martínez, ampliación de Martín Garay, descuento de Duván Vergara para Racing y cierre de Ignacio Russo para el triunfo de Tigre.",
+      "content": "Resumen con los goles del partido jugado en el Cilindro de Avellaneda: apertura de Gonzalo 'Pity' Martínez, ampliación de Martín Garay, descuento de Duván Vergara para Racing y cierre de Ignacio Russo para el triunfo de Tigre.",
       "date": "2026-08-01",
       "category": "video",
-      "source": "https://www.youtube.com/watch?v=gdkDfrS8YzQ"
+      "source": "https://www.youtube.com/watch?v=VlnBwcHC8kw"
+    },
+    {
+      "title": "Resumen en video: Rosario Central 0-0 Racing (Fecha 2, Torneo Clausura)",
+      "content": "Resumen del empate sin goles disputado en el Gigante de Arroyito, con ocasiones claras para Santiago Solari (travesaño) y Lautaro Díaz por parte de Racing.",
+      "date": "2026-07-28",
+      "category": "video",
+      "source": "https://www.youtube.com/watch?v=r97qE4pIfvQ"
     }
   ],
 
-  "institutionalNews": []
+  "institutionalNews": [
+    {
+      "title": "Crecen las críticas internas: silbidos a Diego Milito y Lacunza habla del difícil momento del club",
+      "content": "Tras la derrota con Tigre, los hinchas manifestaron un repudio inédito hacia el presidente Diego Milito en el Cilindro. El vicepresidente Hernán Lacunza reconoció la dificultad del momento institucional (\"más difícil que ser Ministro de Economía\") y señaló demoras en la obra del predio de Ezeiza, prometida para enero de 2026 y aún sin terminar.",
+      "date": "2026-08-06",
+      "category": "directive",
+      "source": "elintransigente.com / racingdealma.com.ar / eldestapeweb.com"
+    }
+  ]
 }
